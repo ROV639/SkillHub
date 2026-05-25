@@ -1,0 +1,47 @@
+{
+  "updated_at": "2026-05-25",
+  "schema_version": "0.1.0",
+  "skills": [
+    {
+      "id": "rubin-evidence-lab",
+      "display_name": "证据研究所",
+      "source_type": "rubin-original",
+      "status": "LAB",
+      "risk_level": "R1",
+      "version": "0.1.0",
+      "added_at": "2026-05-25",
+      "updated_at": "2026-05-25",
+      "last_tested": "2026-05-25",
+      "last_reviewed": "2026-05-25",
+      "category": ["research-evidence", "content-pipeline", "agent-ops"],
+      "recommended_agents": ["Codex", "Claude"],
+      "requires_api_key": false,
+      "requires_login": false,
+      "writes_external_platform": false,
+      "path": "skills/lab/rubin-original/rubin-evidence-lab",
+      "summary": "用于外部仓库评估、AI 工具调研、内容事实核查和决策卡输出。",
+      "auto_callable": false,
+      "ready_state": "LAB-TEST",
+      "scorecard": "scorecards/rubin-evidence-lab.md",
+      "latest_test_report": "reports/03_REPORT_rubin-evidence-lab_回测_baoyu-skills_v1.md"
+    }
+  ],
+  "sources": [
+    {
+      "name": "JimLiu/baoyu-skills",
+      "url": "https://github.com/JimLiu/baoyu-skills",
+      "type": "external-skill-pool",
+      "status": "REFERENCE",
+      "risk_note": "含内容生产、图像、网页抓取、发布和 danger 类 skill，需分层评估。",
+      "source_verified_at": "2026-05-25"
+    },
+    {
+      "name": "dreammis/social-auto-upload",
+      "url": "https://github.com/dreammis/social-auto-upload",
+      "type": "external-tool",
+      "status": "BLOCKED_PROD",
+      "risk_note": "真实社媒发布与登录态风险，只用于发布包 schema 研究。",
+      "source_verified_at": "2026-05-25"
+    }
+  ]
+}

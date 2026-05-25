@@ -1,0 +1,30 @@
+{
+  "id": "rubin-evidence-lab",
+  "display_name": "证据研究所",
+  "source_type": "rubin-original",
+  "status": "LAB",
+  "version": "0.1.0",
+  "added_at": "2026-05-25",
+  "updated_at": "2026-05-25",
+  "last_tested": "2026-05-25",
+  "last_reviewed": "2026-05-25",
+  "risk_level": "R1",
+  "category": ["research-evidence", "content-pipeline", "agent-ops"],
+  "recommended_agents": ["Codex", "Claude"],
+  "requires_api_key": false,
+  "requires_login": false,
+  "writes_external_platform": false,
+  "source_url": null,
+  "source_verified_at": null,
+  "owner": "Robin",
+  "summary": "用于外部仓库评估、AI 工具调研、内容事实核查和决策卡输出。",
+  "scorecard": "scorecards/rubin-evidence-lab.md",
+  "latest_test_report": "reports/03_REPORT_rubin-evidence-lab_回测_baoyu-skills_v1.md",
+  "ready_criteria": [
+    "完成一次真实 GitHub 仓库评估回测",
+    "完成一次工具/API 调研回测",
+    "完成一次内容事实核查回测",
+    "有评分卡",
+    "输出决策卡和证据表"
+  ]
+}

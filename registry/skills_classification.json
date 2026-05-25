@@ -1,0 +1,121 @@
+{
+  "schema_version": "0.1.0",
+  "generated_at": "2026-05-25 22:02:24",
+  "items": [
+    {
+      "kind": "local-skill",
+      "id": "rubin-evidence-lab",
+      "display_name": "证据研究所",
+      "path": "skills/lab/rubin-original/rubin-evidence-lab",
+      "source_type": "rubin-original",
+      "status": "LAB",
+      "risk_level": "R1",
+      "version": "0.1.0",
+      "added_at": "2026-05-25",
+      "updated_at": "2026-05-25",
+      "last_tested": "2026-05-25",
+      "summary": "用于外部仓库评估、AI 工具调研、内容事实核查和决策卡输出。",
+      "requires_api_key": false,
+      "requires_login": false,
+      "writes_external_platform": false,
+      "computed_risk": "R1",
+      "recommended_action": "LAB-TEST"
+    },
+    {
+      "name": "JimLiu/baoyu-skills",
+      "url": "https://github.com/JimLiu/baoyu-skills",
+      "type": "external-skill-pool",
+      "status": "REFERENCE",
+      "priority": "P0",
+      "recommended_action": "SANDBOX",
+      "risk_hint": "mixed",
+      "notes": "内容生产第一外部样本池，优先测试 diagram、infographic、xhs-images、url-to-markdown、markdown-to-html、youtube-transcript。",
+      "kind": "external-source",
+      "computed_risk": "R2"
+    },
+    {
+      "name": "freestylefly/canghe-skills",
+      "url": "https://github.com/freestylefly/canghe-skills",
+      "type": "external-skill-pool",
+      "status": "REFERENCE",
+      "priority": "P1",
+      "recommended_action": "REFERENCE",
+      "risk_hint": "mixed",
+      "notes": "个人 skills repo 对照，主要学习本地化改写方式。",
+      "kind": "external-source",
+      "computed_risk": "R2"
+    },
+    {
+      "name": "laolaoshiren/claude-code-skills-zh",
+      "url": "https://github.com/laolaoshiren/claude-code-skills-zh",
+      "type": "external-skill-pool",
+      "status": "REFERENCE",
+      "priority": "P1",
+      "recommended_action": "SANDBOX",
+      "risk_hint": "low",
+      "notes": "中文代码类对照组，优先测试 zh-readme。",
+      "kind": "external-source",
+      "computed_risk": "R0"
+    },
+    {
+      "name": "Jst-Well-Dan/Skill-Box",
+      "url": "https://github.com/Jst-Well-Dan/Skill-Box",
+      "type": "external-index",
+      "status": "REFERENCE",
+      "priority": "P1",
+      "recommended_action": "REFERENCE",
+      "risk_hint": "low",
+      "notes": "学习分类体系和 Curated / Community 标签，不直接安装。",
+      "kind": "external-source",
+      "computed_risk": "R0"
+    },
+    {
+      "name": "yzfly/awesome-claude-skills-zh",
+      "url": "https://github.com/yzfly/awesome-claude-skills-zh",
+      "type": "external-index",
+      "status": "REFERENCE",
+      "priority": "P2",
+      "recommended_action": "REFERENCE",
+      "risk_hint": "low",
+      "notes": "中文 Claude Skills 资料雷达。",
+      "kind": "external-source",
+      "computed_risk": "R0"
+    },
+    {
+      "name": "yzfly/awesome-mcp-zh",
+      "url": "https://github.com/yzfly/awesome-mcp-zh",
+      "type": "external-index",
+      "status": "REFERENCE",
+      "priority": "P2",
+      "recommended_action": "REFERENCE",
+      "risk_hint": "mixed",
+      "notes": "MCP 中文资料雷达，涉及账号/平台的 MCP 需独立评估。",
+      "kind": "external-source",
+      "computed_risk": "R2"
+    },
+    {
+      "name": "NanmiCoder/MediaCrawler",
+      "url": "https://github.com/NanmiCoder/MediaCrawler",
+      "type": "external-tool",
+      "status": "REFERENCE",
+      "priority": "P2",
+      "recommended_action": "RESEARCH-SANDBOX",
+      "risk_hint": "R3",
+      "notes": "内容样本研究工具，不进入 skills/ready，不碰主账号，不做批量抓取。",
+      "kind": "external-source",
+      "computed_risk": "R3"
+    },
+    {
+      "name": "dreammis/social-auto-upload",
+      "url": "https://github.com/dreammis/social-auto-upload",
+      "type": "external-tool",
+      "status": "BLOCKED_PROD",
+      "priority": "P2",
+      "recommended_action": "SCHEMA-ONLY",
+      "risk_hint": "R4",
+      "notes": "社媒自动上传技术储备，只提取发布包 schema，不做无人值守实发。",
+      "kind": "external-source",
+      "computed_risk": "R4"
+    }
+  ]
+}

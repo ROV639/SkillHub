@@ -1,0 +1,87 @@
+{
+  "updated_at": "2026-05-25",
+  "schema_version": "0.1.0",
+  "sources": [
+    {
+      "name": "JimLiu/baoyu-skills",
+      "url": "https://github.com/JimLiu/baoyu-skills",
+      "type": "external-skill-pool",
+      "status": "REFERENCE",
+      "priority": "P0",
+      "recommended_action": "SANDBOX",
+      "risk_hint": "mixed",
+      "notes": "内容生产第一外部样本池，优先测试 diagram、infographic、xhs-images、url-to-markdown、markdown-to-html、youtube-transcript。"
+    },
+    {
+      "name": "freestylefly/canghe-skills",
+      "url": "https://github.com/freestylefly/canghe-skills",
+      "type": "external-skill-pool",
+      "status": "REFERENCE",
+      "priority": "P1",
+      "recommended_action": "REFERENCE",
+      "risk_hint": "mixed",
+      "notes": "个人 skills repo 对照，主要学习本地化改写方式。"
+    },
+    {
+      "name": "laolaoshiren/claude-code-skills-zh",
+      "url": "https://github.com/laolaoshiren/claude-code-skills-zh",
+      "type": "external-skill-pool",
+      "status": "REFERENCE",
+      "priority": "P1",
+      "recommended_action": "SANDBOX",
+      "risk_hint": "low",
+      "notes": "中文代码类对照组，优先测试 zh-readme。"
+    },
+    {
+      "name": "Jst-Well-Dan/Skill-Box",
+      "url": "https://github.com/Jst-Well-Dan/Skill-Box",
+      "type": "external-index",
+      "status": "REFERENCE",
+      "priority": "P1",
+      "recommended_action": "REFERENCE",
+      "risk_hint": "low",
+      "notes": "学习分类体系和 Curated / Community 标签，不直接安装。"
+    },
+    {
+      "name": "yzfly/awesome-claude-skills-zh",
+      "url": "https://github.com/yzfly/awesome-claude-skills-zh",
+      "type": "external-index",
+      "status": "REFERENCE",
+      "priority": "P2",
+      "recommended_action": "REFERENCE",
+      "risk_hint": "low",
+      "notes": "中文 Claude Skills 资料雷达。"
+    },
+    {
+      "name": "yzfly/awesome-mcp-zh",
+      "url": "https://github.com/yzfly/awesome-mcp-zh",
+      "type": "external-index",
+      "status": "REFERENCE",
+      "priority": "P2",
+      "recommended_action": "REFERENCE",
+      "risk_hint": "mixed",
+      "notes": "MCP 中文资料雷达，涉及账号/平台的 MCP 需独立评估。"
+    },
+    {
+      "name": "NanmiCoder/MediaCrawler",
+      "url": "https://github.com/NanmiCoder/MediaCrawler",
+      "type": "external-tool",
+      "status": "REFERENCE",
+      "priority": "P2",
+      "recommended_action": "RESEARCH-SANDBOX",
+      "risk_hint": "R3",
+      "notes": "内容样本研究工具，不进入 skills/ready，不碰主账号，不做批量抓取。"
+    },
+    {
+      "name": "dreammis/social-auto-upload",
+      "url": "https://github.com/dreammis/social-auto-upload",
+      "type": "external-tool",
+      "status": "BLOCKED_PROD",
+      "priority": "P2",
+      "recommended_action": "SCHEMA-ONLY",
+      "risk_hint": "R4",
+      "notes": "社媒自动上传技术储备，只提取发布包 schema，不做无人值守实发。"
+    }
+  ]
+}
+
