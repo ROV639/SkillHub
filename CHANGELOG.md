@@ -11,3 +11,4 @@
 - 新增 `docs/03_GUIDE_skillhub_新仓库接收评估流程_v1.md`，作为后续新仓库/Skill/工作流的默认分析、分类、评价和推荐流程。
 - 新增 `scripts/inventory_skills.py`、`scripts/classify_skills.py`、`registry/sources_index.json`，生成批量盘点和自动分类结果。
 - 新增 `registry/skills_inventory.json`、`registry/skills_classification.json`、`reports/05_REPORT_skillhub_外部候选批量盘点_v1.md`、`reports/06_REPORT_skillhub_自动分类结果_v1.md`。
+- 新增 `configs/minimax/coder.md`，定义 MiniMax Coder agent 可使用的 SkillHub 能力、禁止项和输出格式。
