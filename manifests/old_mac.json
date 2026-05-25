@@ -1,0 +1,1307 @@
+{
+  "generated_at": "2026-05-25 19:38",
+  "machine": "old_mac",
+  "total": 130,
+  "skills": [
+    {
+      "name": "skill-creator",
+      "path": "/Users/Robin/.codex/skills/.system/skill-creator",
+      "source": "codex",
+      "file_count": 9,
+      "last_modified": "2026-05-17",
+      "has_scripts": true,
+      "has_assets": true,
+      "secret_risk": false
+    },
+    {
+      "name": "plugin-creator",
+      "path": "/Users/Robin/.codex/skills/.system/plugin-creator",
+      "source": "codex",
+      "file_count": 6,
+      "last_modified": "2026-05-17",
+      "has_scripts": true,
+      "has_assets": true,
+      "secret_risk": false
+    },
+    {
+      "name": "skill-installer",
+      "path": "/Users/Robin/.codex/skills/.system/skill-installer",
+      "source": "codex",
+      "file_count": 8,
+      "last_modified": "2026-05-17",
+      "has_scripts": true,
+      "has_assets": true,
+      "secret_risk": false
+    },
+    {
+      "name": "openai-docs",
+      "path": "/Users/Robin/.codex/skills/.system/openai-docs",
+      "source": "codex",
+      "file_count": 9,
+      "last_modified": "2026-05-17",
+      "has_scripts": true,
+      "has_assets": true,
+      "secret_risk": false
+    },
+    {
+      "name": "imagegen",
+      "path": "/Users/Robin/.codex/skills/.system/imagegen",
+      "source": "codex",
+      "file_count": 12,
+      "last_modified": "2026-05-17",
+      "has_scripts": true,
+      "has_assets": true,
+      "secret_risk": false
+    },
+    {
+      "name": "migrate-to-codex",
+      "path": "/Users/Robin/.codex/vendor_imports/skills/skills/.curated/migrate-to-codex",
+      "source": "codex_vendor",
+      "file_count": 19,
+      "last_modified": "2026-05-17",
+      "has_scripts": true,
+      "has_assets": false,
+      "secret_risk": false
+    },
+    {
+      "name": "security-threat-model",
+      "path": "/Users/Robin/.codex/vendor_imports/skills/skills/.curated/security-threat-model",
+      "source": "codex_vendor",
+      "file_count": 5,
+      "last_modified": "2026-05-17",
+      "has_scripts": false,
+      "has_assets": false,
+      "secret_risk": false
+    },
+    {
+      "name": "figma-generate-design",
+      "path": "/Users/Robin/.codex/vendor_imports/skills/skills/.curated/figma-generate-design",
+      "source": "codex_vendor",
+      "file_count": 7,
+      "last_modified": "2026-05-17",
+      "has_scripts": false,
+      "has_assets": true,
+      "secret_risk": false
+    },
+    {
+      "name": "screenshot",
+      "path": "/Users/Robin/.codex/vendor_imports/skills/skills/.curated/screenshot",
+      "source": "codex_vendor",
+      "file_count": 11,
+      "last_modified": "2026-05-17",
+      "has_scripts": true,
+      "has_assets": true,
+      "secret_risk": false
+    },
+    {
+      "name": "hatch-pet",
+      "path": "/Users/Robin/.codex/vendor_imports/skills/skills/.curated/hatch-pet",
+      "source": "codex_vendor",
+      "file_count": 14,
+      "last_modified": "2026-05-17",
+      "has_scripts": true,
+      "has_assets": false,
+      "secret_risk": false
+    },
+    {
+      "name": "figma-create-new-file",
+      "path": "/Users/Robin/.codex/vendor_imports/skills/skills/.curated/figma-create-new-file",
+      "source": "codex_vendor",
+      "file_count": 7,
+      "last_modified": "2026-05-17",
+      "has_scripts": false,
+      "has_assets": true,
+      "secret_risk": false
+    },
+    {
+      "name": "netlify-deploy",
+      "path": "/Users/Robin/.codex/vendor_imports/skills/skills/.curated/netlify-deploy",
+      "source": "codex_vendor",
+      "file_count": 8,
+      "last_modified": "2026-05-17",
+      "has_scripts": false,
+      "has_assets": true,
+      "secret_risk": false
+    },
+    {
+      "name": "notion-meeting-intelligence",
+      "path": "/Users/Robin/.codex/vendor_imports/skills/skills/.curated/notion-meeting-intelligence",
+      "source": "codex_vendor",
+      "file_count": 19,
+      "last_modified": "2026-05-17",
+      "has_scripts": false,
+      "has_assets": true,
+      "secret_risk": false
+    },
+    {
+      "name": "jupyter-notebook",
+      "path": "/Users/Robin/.codex/vendor_imports/skills/skills/.curated/jupyter-notebook",
+      "source": "codex_vendor",
+      "file_count": 12,
+      "last_modified": "2026-05-17",
+      "has_scripts": true,
+      "has_assets": true,
+      "secret_risk": false
+    },
+    {
+      "name": "figma-implement-design",
+      "path": "/Users/Robin/.codex/vendor_imports/skills/skills/.curated/figma-implement-design",
+      "source": "codex_vendor",
+      "file_count": 6,
+      "last_modified": "2026-05-17",
+      "has_scripts": false,
+      "has_assets": true,
+      "secret_risk": false
+    },
+    {
+      "name": "security-best-practices",
+      "path": "/Users/Robin/.codex/vendor_imports/skills/skills/.curated/security-best-practices",
+      "source": "codex_vendor",
+      "file_count": 13,
+      "last_modified": "2026-05-17",
+      "has_scripts": false,
+      "has_assets": false,
+      "secret_risk": false
+    },
+    {
+      "name": "linear",
+      "path": "/Users/Robin/.codex/vendor_imports/skills/skills/.curated/linear",
+      "source": "codex_vendor",
+      "file_count": 5,
+      "last_modified": "2026-05-17",
+      "has_scripts": false,
+      "has_assets": true,
+      "secret_risk": false
+    },
+    {
+      "name": "aspnet-core",
+      "path": "/Users/Robin/.codex/vendor_imports/skills/skills/.curated/aspnet-core",
+      "source": "codex_vendor",
+      "file_count": 17,
+      "last_modified": "2026-05-17",
+      "has_scripts": false,
+      "has_assets": true,
+      "secret_risk": false
+    },
+    {
+      "name": "pdf",
+      "path": "/Users/Robin/.codex/vendor_imports/skills/skills/.curated/pdf",
+      "source": "codex_vendor",
+      "file_count": 4,
+      "last_modified": "2026-05-17",
+      "has_scripts": false,
+      "has_assets": true,
+      "secret_risk": false
+    },
+    {
+      "name": "figma-generate-library",
+      "path": "/Users/Robin/.codex/vendor_imports/skills/skills/.curated/figma-generate-library",
+      "source": "codex_vendor",
+      "file_count": 23,
+      "last_modified": "2026-05-17",
+      "has_scripts": true,
+      "has_assets": true,
+      "secret_risk": false
+    },
+    {
+      "name": "figma-use",
+      "path": "/Users/Robin/.codex/vendor_imports/skills/skills/.curated/figma-use",
+      "source": "codex_vendor",
+      "file_count": 29,
+      "last_modified": "2026-05-17",
+      "has_scripts": false,
+      "has_assets": true,
+      "secret_risk": false
+    },
+    {
+      "name": "playwright",
+      "path": "/Users/Robin/.codex/vendor_imports/skills/skills/.curated/playwright",
+      "source": "codex_vendor",
+      "file_count": 9,
+      "last_modified": "2026-05-17",
+      "has_scripts": true,
+      "has_assets": true,
+      "secret_risk": false
+    },
+    {
+      "name": "winui-app",
+      "path": "/Users/Robin/.codex/vendor_imports/skills/skills/.curated/winui-app",
+      "source": "codex_vendor",
+      "file_count": 21,
+      "last_modified": "2026-05-17",
+      "has_scripts": false,
+      "has_assets": true,
+      "secret_risk": false
+    },
+    {
+      "name": "notion-research-documentation",
+      "path": "/Users/Robin/.codex/vendor_imports/skills/skills/.curated/notion-research-documentation",
+      "source": "codex_vendor",
+      "file_count": 23,
+      "last_modified": "2026-05-17",
+      "has_scripts": false,
+      "has_assets": true,
+      "secret_risk": false
+    },
+    {
+      "name": "speech",
+      "path": "/Users/Robin/.codex/vendor_imports/skills/skills/.curated/speech",
+      "source": "codex_vendor",
+      "file_count": 16,
+      "last_modified": "2026-05-17",
+      "has_scripts": true,
+      "has_assets": true,
+      "secret_risk": false
+    },
+    {
+      "name": "chatgpt-apps",
+      "path": "/Users/Robin/.codex/vendor_imports/skills/skills/.curated/chatgpt-apps",
+      "source": "codex_vendor",
+      "file_count": 11,
+      "last_modified": "2026-05-17",
+      "has_scripts": false,
+      "has_assets": false,
+      "secret_risk": false
+    },
+    {
+      "name": "figma",
+      "path": "/Users/Robin/.codex/vendor_imports/skills/skills/.curated/figma",
+      "source": "codex_vendor",
+      "file_count": 8,
+      "last_modified": "2026-05-17",
+      "has_scripts": false,
+      "has_assets": true,
+      "secret_risk": false
+    },
+    {
+      "name": "notion-knowledge-capture",
+      "path": "/Users/Robin/.codex/vendor_imports/skills/skills/.curated/notion-knowledge-capture",
+      "source": "codex_vendor",
+      "file_count": 18,
+      "last_modified": "2026-05-17",
+      "has_scripts": false,
+      "has_assets": true,
+      "secret_risk": false
+    },
+    {
+      "name": "cloudflare-deploy",
+      "path": "/Users/Robin/.codex/vendor_imports/skills/skills/.curated/cloudflare-deploy",
+      "source": "codex_vendor",
+      "file_count": 312,
+      "last_modified": "2026-05-17",
+      "has_scripts": false,
+      "has_assets": true,
+      "secret_risk": false
+    },
+    {
+      "name": "vercel-deploy",
+      "path": "/Users/Robin/.codex/vendor_imports/skills/skills/.curated/vercel-deploy",
+      "source": "codex_vendor",
+      "file_count": 6,
+      "last_modified": "2026-05-17",
+      "has_scripts": true,
+      "has_assets": true,
+      "secret_risk": false
+    },
+    {
+      "name": "figma-code-connect-components",
+      "path": "/Users/Robin/.codex/vendor_imports/skills/skills/.curated/figma-code-connect-components",
+      "source": "codex_vendor",
+      "file_count": 8,
+      "last_modified": "2026-05-17",
+      "has_scripts": true,
+      "has_assets": true,
+      "secret_risk": false
+    },
+    {
+      "name": "render-deploy",
+      "path": "/Users/Robin/.codex/vendor_imports/skills/skills/.curated/render-deploy",
+      "source": "codex_vendor",
+      "file_count": 21,
+      "last_modified": "2026-05-17",
+      "has_scripts": false,
+      "has_assets": true,
+      "secret_risk": false
+    },
+    {
+      "name": "gh-fix-ci",
+      "path": "/Users/Robin/.codex/vendor_imports/skills/skills/.curated/gh-fix-ci",
+      "source": "codex_vendor",
+      "file_count": 6,
+      "last_modified": "2026-05-17",
+      "has_scripts": true,
+      "has_assets": true,
+      "secret_risk": false
+    },
+    {
+      "name": "notion-spec-to-implementation",
+      "path": "/Users/Robin/.codex/vendor_imports/skills/skills/.curated/notion-spec-to-implementation",
+      "source": "codex_vendor",
+      "file_count": 19,
+      "last_modified": "2026-05-17",
+      "has_scripts": false,
+      "has_assets": true,
+      "secret_risk": false
+    },
+    {
+      "name": "cli-creator",
+      "path": "/Users/Robin/.codex/vendor_imports/skills/skills/.curated/cli-creator",
+      "source": "codex_vendor",
+      "file_count": 4,
+      "last_modified": "2026-05-17",
+      "has_scripts": false,
+      "has_assets": false,
+      "secret_risk": false
+    },
+    {
+      "name": "yeet",
+      "path": "/Users/Robin/.codex/vendor_imports/skills/skills/.curated/yeet",
+      "source": "codex_vendor",
+      "file_count": 5,
+      "last_modified": "2026-05-17",
+      "has_scripts": false,
+      "has_assets": true,
+      "secret_risk": false
+    },
+    {
+      "name": "openai-docs",
+      "path": "/Users/Robin/.codex/vendor_imports/skills/skills/.curated/openai-docs",
+      "source": "codex_vendor",
+      "file_count": 9,
+      "last_modified": "2026-05-17",
+      "has_scripts": true,
+      "has_assets": true,
+      "secret_risk": false
+    },
+    {
+      "name": "sentry",
+      "path": "/Users/Robin/.codex/vendor_imports/skills/skills/.curated/sentry",
+      "source": "codex_vendor",
+      "file_count": 5,
+      "last_modified": "2026-05-17",
+      "has_scripts": false,
+      "has_assets": true,
+      "secret_risk": false
+    },
+    {
+      "name": "playwright-interactive",
+      "path": "/Users/Robin/.codex/vendor_imports/skills/skills/.curated/playwright-interactive",
+      "source": "codex_vendor",
+      "file_count": 6,
+      "last_modified": "2026-05-17",
+      "has_scripts": false,
+      "has_assets": true,
+      "secret_risk": false
+    },
+    {
+      "name": "transcribe",
+      "path": "/Users/Robin/.codex/vendor_imports/skills/skills/.curated/transcribe",
+      "source": "codex_vendor",
+      "file_count": 7,
+      "last_modified": "2026-05-17",
+      "has_scripts": true,
+      "has_assets": true,
+      "secret_risk": false
+    },
+    {
+      "name": "gh-address-comments",
+      "path": "/Users/Robin/.codex/vendor_imports/skills/skills/.curated/gh-address-comments",
+      "source": "codex_vendor",
+      "file_count": 6,
+      "last_modified": "2026-05-17",
+      "has_scripts": true,
+      "has_assets": true,
+      "secret_risk": false
+    },
+    {
+      "name": "security-ownership-map",
+      "path": "/Users/Robin/.codex/vendor_imports/skills/skills/.curated/security-ownership-map",
+      "source": "codex_vendor",
+      "file_count": 8,
+      "last_modified": "2026-05-17",
+      "has_scripts": true,
+      "has_assets": false,
+      "secret_risk": false
+    },
+    {
+      "name": "figma-create-design-system-rules",
+      "path": "/Users/Robin/.codex/vendor_imports/skills/skills/.curated/figma-create-design-system-rules",
+      "source": "codex_vendor",
+      "file_count": 8,
+      "last_modified": "2026-05-17",
+      "has_scripts": true,
+      "has_assets": true,
+      "secret_risk": false
+    },
+    {
+      "name": "themis-background-audit",
+      "path": "/Users/Robin/Documents/claude-codex-workplace/OldMac_Agent_Altman_Themis_Deployment/Themis_Hermes/skills/themis-background-audit",
+      "source": "workplace",
+      "file_count": 1,
+      "last_modified": "2026-05-18",
+      "has_scripts": false,
+      "has_assets": false,
+      "secret_risk": false
+    },
+    {
+      "name": "themis-agent-governance",
+      "path": "/Users/Robin/Documents/claude-codex-workplace/OldMac_Agent_Altman_Themis_Deployment/Themis_Hermes/skills/themis-agent-governance",
+      "source": "workplace",
+      "file_count": 1,
+      "last_modified": "2026-05-18",
+      "has_scripts": false,
+      "has_assets": false,
+      "secret_risk": false
+    },
+    {
+      "name": "arthur_observatory_production",
+      "path": "/Users/Robin/Documents/claude-codex-workplace/Dionysus_Theater/skills/arthur_observatory_production",
+      "source": "workplace",
+      "file_count": 32,
+      "last_modified": "2026-05-16",
+      "has_scripts": true,
+      "has_assets": true,
+      "secret_risk": false
+    },
+    {
+      "name": "hyperframes",
+      "path": "/Users/Robin/Documents/claude-codex-workplace/Dionysus_Theater/\ud83d\udce1VideoAI\u5de5\u574a/hyperframes_vertical/node_modules/hyperframes/dist/skills/hyperframes",
+      "source": "workplace",
+      "file_count": 46,
+      "last_modified": "2026-05-14",
+      "has_scripts": false,
+      "has_assets": false,
+      "secret_risk": false
+    },
+    {
+      "name": "hyperframes-cli",
+      "path": "/Users/Robin/Documents/claude-codex-workplace/Dionysus_Theater/\ud83d\udce1VideoAI\u5de5\u574a/hyperframes_vertical/node_modules/hyperframes/dist/skills/hyperframes-cli",
+      "source": "workplace",
+      "file_count": 1,
+      "last_modified": "2026-05-14",
+      "has_scripts": false,
+      "has_assets": false,
+      "secret_risk": false
+    },
+    {
+      "name": "gsap",
+      "path": "/Users/Robin/Documents/claude-codex-workplace/Dionysus_Theater/\ud83d\udce1VideoAI\u5de5\u574a/hyperframes_vertical/node_modules/hyperframes/dist/skills/gsap",
+      "source": "workplace",
+      "file_count": 3,
+      "last_modified": "2026-05-14",
+      "has_scripts": true,
+      "has_assets": false,
+      "secret_risk": false
+    },
+    {
+      "name": "poseidon-content-recon",
+      "path": "/Users/Robin/Documents/claude-codex-workplace/Poseidon_Aigai/skills/poseidon-content-recon",
+      "source": "workplace",
+      "file_count": 2,
+      "last_modified": "2026-05-11",
+      "has_scripts": false,
+      "has_assets": false,
+      "secret_risk": false
+    },
+    {
+      "name": "nano-pdf",
+      "path": "/Users/Robin/Documents/Agent/npm/lib/node_modules/openclaw/skills/nano-pdf",
+      "source": "openclaw",
+      "file_count": 1,
+      "last_modified": "2026-05-17",
+      "has_scripts": false,
+      "has_assets": false,
+      "secret_risk": false
+    },
+    {
+      "name": "himalaya",
+      "path": "/Users/Robin/Documents/Agent/npm/lib/node_modules/openclaw/skills/himalaya",
+      "source": "openclaw",
+      "file_count": 3,
+      "last_modified": "2026-05-17",
+      "has_scripts": false,
+      "has_assets": false,
+      "secret_risk": false
+    },
+    {
+      "name": "bear-notes",
+      "path": "/Users/Robin/Documents/Agent/npm/lib/node_modules/openclaw/skills/bear-notes",
+      "source": "openclaw",
+      "file_count": 1,
+      "last_modified": "2026-05-17",
+      "has_scripts": false,
+      "has_assets": false,
+      "secret_risk": false
+    },
+    {
+      "name": "peekaboo",
+      "path": "/Users/Robin/Documents/Agent/npm/lib/node_modules/openclaw/skills/peekaboo",
+      "source": "openclaw",
+      "file_count": 1,
+      "last_modified": "2026-05-17",
+      "has_scripts": false,
+      "has_assets": false,
+      "secret_risk": false
+    },
+    {
+      "name": "model-usage",
+      "path": "/Users/Robin/Documents/Agent/npm/lib/node_modules/openclaw/skills/model-usage",
+      "source": "openclaw",
+      "file_count": 4,
+      "last_modified": "2026-05-17",
+      "has_scripts": true,
+      "has_assets": false,
+      "secret_risk": false
+    },
+    {
+      "name": "blogwatcher",
+      "path": "/Users/Robin/Documents/Agent/npm/lib/node_modules/openclaw/skills/blogwatcher",
+      "source": "openclaw",
+      "file_count": 1,
+      "last_modified": "2026-05-17",
+      "has_scripts": false,
+      "has_assets": false,
+      "secret_risk": false
+    },
+    {
+      "name": "discord",
+      "path": "/Users/Robin/Documents/Agent/npm/lib/node_modules/openclaw/skills/discord",
+      "source": "openclaw",
+      "file_count": 1,
+      "last_modified": "2026-05-17",
+      "has_scripts": false,
+      "has_assets": false,
+      "secret_risk": false
+    },
+    {
+      "name": "coding-agent",
+      "path": "/Users/Robin/Documents/Agent/npm/lib/node_modules/openclaw/skills/coding-agent",
+      "source": "openclaw",
+      "file_count": 1,
+      "last_modified": "2026-05-17",
+      "has_scripts": false,
+      "has_assets": false,
+      "secret_risk": false
+    },
+    {
+      "name": "openhue",
+      "path": "/Users/Robin/Documents/Agent/npm/lib/node_modules/openclaw/skills/openhue",
+      "source": "openclaw",
+      "file_count": 1,
+      "last_modified": "2026-05-17",
+      "has_scripts": false,
+      "has_assets": false,
+      "secret_risk": false
+    },
+    {
+      "name": "gemini",
+      "path": "/Users/Robin/Documents/Agent/npm/lib/node_modules/openclaw/skills/gemini",
+      "source": "openclaw",
+      "file_count": 1,
+      "last_modified": "2026-05-17",
+      "has_scripts": false,
+      "has_assets": false,
+      "secret_risk": false
+    },
+    {
+      "name": "gifgrep",
+      "path": "/Users/Robin/Documents/Agent/npm/lib/node_modules/openclaw/skills/gifgrep",
+      "source": "openclaw",
+      "file_count": 1,
+      "last_modified": "2026-05-17",
+      "has_scripts": false,
+      "has_assets": false,
+      "secret_risk": false
+    },
+    {
+      "name": "session-logs",
+      "path": "/Users/Robin/Documents/Agent/npm/lib/node_modules/openclaw/skills/session-logs",
+      "source": "openclaw",
+      "file_count": 1,
+      "last_modified": "2026-05-17",
+      "has_scripts": false,
+      "has_assets": false,
+      "secret_risk": false
+    },
+    {
+      "name": "node-connect",
+      "path": "/Users/Robin/Documents/Agent/npm/lib/node_modules/openclaw/skills/node-connect",
+      "source": "openclaw",
+      "file_count": 1,
+      "last_modified": "2026-05-17",
+      "has_scripts": false,
+      "has_assets": false,
+      "secret_risk": false
+    },
+    {
+      "name": "ordercli",
+      "path": "/Users/Robin/Documents/Agent/npm/lib/node_modules/openclaw/skills/ordercli",
+      "source": "openclaw",
+      "file_count": 1,
+      "last_modified": "2026-05-17",
+      "has_scripts": false,
+      "has_assets": false,
+      "secret_risk": false
+    },
+    {
+      "name": "openai-whisper",
+      "path": "/Users/Robin/Documents/Agent/npm/lib/node_modules/openclaw/skills/openai-whisper",
+      "source": "openclaw",
+      "file_count": 1,
+      "last_modified": "2026-05-17",
+      "has_scripts": false,
+      "has_assets": false,
+      "secret_risk": false
+    },
+    {
+      "name": "spotify-player",
+      "path": "/Users/Robin/Documents/Agent/npm/lib/node_modules/openclaw/skills/spotify-player",
+      "source": "openclaw",
+      "file_count": 1,
+      "last_modified": "2026-05-17",
+      "has_scripts": false,
+      "has_assets": false,
+      "secret_risk": false
+    },
+    {
+      "name": "healthcheck",
+      "path": "/Users/Robin/Documents/Agent/npm/lib/node_modules/openclaw/skills/healthcheck",
+      "source": "openclaw",
+      "file_count": 1,
+      "last_modified": "2026-05-17",
+      "has_scripts": false,
+      "has_assets": false,
+      "secret_risk": false
+    },
+    {
+      "name": "oracle",
+      "path": "/Users/Robin/Documents/Agent/npm/lib/node_modules/openclaw/skills/oracle",
+      "source": "openclaw",
+      "file_count": 1,
+      "last_modified": "2026-05-17",
+      "has_scripts": false,
+      "has_assets": false,
+      "secret_risk": false
+    },
+    {
+      "name": "xurl",
+      "path": "/Users/Robin/Documents/Agent/npm/lib/node_modules/openclaw/skills/xurl",
+      "source": "openclaw",
+      "file_count": 1,
+      "last_modified": "2026-05-17",
+      "has_scripts": false,
+      "has_assets": false,
+      "secret_risk": false
+    },
+    {
+      "name": "summarize",
+      "path": "/Users/Robin/Documents/Agent/npm/lib/node_modules/openclaw/skills/summarize",
+      "source": "openclaw",
+      "file_count": 1,
+      "last_modified": "2026-05-17",
+      "has_scripts": false,
+      "has_assets": false,
+      "secret_risk": false
+    },
+    {
+      "name": "clawhub",
+      "path": "/Users/Robin/Documents/Agent/npm/lib/node_modules/openclaw/skills/clawhub",
+      "source": "openclaw",
+      "file_count": 1,
+      "last_modified": "2026-05-17",
+      "has_scripts": false,
+      "has_assets": false,
+      "secret_risk": false
+    },
+    {
+      "name": "sherpa-onnx-tts",
+      "path": "/Users/Robin/Documents/Agent/npm/lib/node_modules/openclaw/skills/sherpa-onnx-tts",
+      "source": "openclaw",
+      "file_count": 2,
+      "last_modified": "2026-05-17",
+      "has_scripts": false,
+      "has_assets": false,
+      "secret_risk": false
+    },
+    {
+      "name": "video-frames",
+      "path": "/Users/Robin/Documents/Agent/npm/lib/node_modules/openclaw/skills/video-frames",
+      "source": "openclaw",
+      "file_count": 2,
+      "last_modified": "2026-05-17",
+      "has_scripts": true,
+      "has_assets": false,
+      "secret_risk": false
+    },
+    {
+      "name": "eightctl",
+      "path": "/Users/Robin/Documents/Agent/npm/lib/node_modules/openclaw/skills/eightctl",
+      "source": "openclaw",
+      "file_count": 1,
+      "last_modified": "2026-05-17",
+      "has_scripts": false,
+      "has_assets": false,
+      "secret_risk": false
+    },
+    {
+      "name": "gog",
+      "path": "/Users/Robin/Documents/Agent/npm/lib/node_modules/openclaw/skills/gog",
+      "source": "openclaw",
+      "file_count": 1,
+      "last_modified": "2026-05-17",
+      "has_scripts": false,
+      "has_assets": false,
+      "secret_risk": false
+    },
+    {
+      "name": "canvas",
+      "path": "/Users/Robin/Documents/Agent/npm/lib/node_modules/openclaw/skills/canvas",
+      "source": "openclaw",
+      "file_count": 1,
+      "last_modified": "2026-05-17",
+      "has_scripts": false,
+      "has_assets": false,
+      "secret_risk": false
+    },
+    {
+      "name": "notion",
+      "path": "/Users/Robin/Documents/Agent/npm/lib/node_modules/openclaw/skills/notion",
+      "source": "openclaw",
+      "file_count": 1,
+      "last_modified": "2026-05-17",
+      "has_scripts": false,
+      "has_assets": false,
+      "secret_risk": false
+    },
+    {
+      "name": "goplaces",
+      "path": "/Users/Robin/Documents/Agent/npm/lib/node_modules/openclaw/skills/goplaces",
+      "source": "openclaw",
+      "file_count": 1,
+      "last_modified": "2026-05-17",
+      "has_scripts": false,
+      "has_assets": false,
+      "secret_risk": false
+    },
+    {
+      "name": "apple-reminders",
+      "path": "/Users/Robin/Documents/Agent/npm/lib/node_modules/openclaw/skills/apple-reminders",
+      "source": "openclaw",
+      "file_count": 1,
+      "last_modified": "2026-05-17",
+      "has_scripts": false,
+      "has_assets": false,
+      "secret_risk": false
+    },
+    {
+      "name": "imsg",
+      "path": "/Users/Robin/Documents/Agent/npm/lib/node_modules/openclaw/skills/imsg",
+      "source": "openclaw",
+      "file_count": 1,
+      "last_modified": "2026-05-17",
+      "has_scripts": false,
+      "has_assets": false,
+      "secret_risk": false
+    },
+    {
+      "name": "skill-creator",
+      "path": "/Users/Robin/Documents/Agent/npm/lib/node_modules/openclaw/skills/skill-creator",
+      "source": "openclaw",
+      "file_count": 7,
+      "last_modified": "2026-05-17",
+      "has_scripts": true,
+      "has_assets": false,
+      "secret_risk": false
+    },
+    {
+      "name": "camsnap",
+      "path": "/Users/Robin/Documents/Agent/npm/lib/node_modules/openclaw/skills/camsnap",
+      "source": "openclaw",
+      "file_count": 1,
+      "last_modified": "2026-05-17",
+      "has_scripts": false,
+      "has_assets": false,
+      "secret_risk": false
+    },
+    {
+      "name": "github",
+      "path": "/Users/Robin/Documents/Agent/npm/lib/node_modules/openclaw/skills/github",
+      "source": "openclaw",
+      "file_count": 1,
+      "last_modified": "2026-05-17",
+      "has_scripts": false,
+      "has_assets": false,
+      "secret_risk": false
+    },
+    {
+      "name": "taskflow-inbox-triage",
+      "path": "/Users/Robin/Documents/Agent/npm/lib/node_modules/openclaw/skills/taskflow-inbox-triage",
+      "source": "openclaw",
+      "file_count": 1,
+      "last_modified": "2026-05-17",
+      "has_scripts": false,
+      "has_assets": false,
+      "secret_risk": false
+    },
+    {
+      "name": "things-mac",
+      "path": "/Users/Robin/Documents/Agent/npm/lib/node_modules/openclaw/skills/things-mac",
+      "source": "openclaw",
+      "file_count": 1,
+      "last_modified": "2026-05-17",
+      "has_scripts": false,
+      "has_assets": false,
+      "secret_risk": false
+    },
+    {
+      "name": "blucli",
+      "path": "/Users/Robin/Documents/Agent/npm/lib/node_modules/openclaw/skills/blucli",
+      "source": "openclaw",
+      "file_count": 1,
+      "last_modified": "2026-05-17",
+      "has_scripts": false,
+      "has_assets": false,
+      "secret_risk": false
+    },
+    {
+      "name": "sonoscli",
+      "path": "/Users/Robin/Documents/Agent/npm/lib/node_modules/openclaw/skills/sonoscli",
+      "source": "openclaw",
+      "file_count": 1,
+      "last_modified": "2026-05-17",
+      "has_scripts": false,
+      "has_assets": false,
+      "secret_risk": false
+    },
+    {
+      "name": "mcporter",
+      "path": "/Users/Robin/Documents/Agent/npm/lib/node_modules/openclaw/skills/mcporter",
+      "source": "openclaw",
+      "file_count": 1,
+      "last_modified": "2026-05-17",
+      "has_scripts": false,
+      "has_assets": false,
+      "secret_risk": false
+    },
+    {
+      "name": "tmux",
+      "path": "/Users/Robin/Documents/Agent/npm/lib/node_modules/openclaw/skills/tmux",
+      "source": "openclaw",
+      "file_count": 3,
+      "last_modified": "2026-05-17",
+      "has_scripts": true,
+      "has_assets": false,
+      "secret_risk": false
+    },
+    {
+      "name": "sag",
+      "path": "/Users/Robin/Documents/Agent/npm/lib/node_modules/openclaw/skills/sag",
+      "source": "openclaw",
+      "file_count": 1,
+      "last_modified": "2026-05-17",
+      "has_scripts": false,
+      "has_assets": false,
+      "secret_risk": false
+    },
+    {
+      "name": "slack",
+      "path": "/Users/Robin/Documents/Agent/npm/lib/node_modules/openclaw/skills/slack",
+      "source": "openclaw",
+      "file_count": 1,
+      "last_modified": "2026-05-17",
+      "has_scripts": false,
+      "has_assets": false,
+      "secret_risk": false
+    },
+    {
+      "name": "weather",
+      "path": "/Users/Robin/Documents/Agent/npm/lib/node_modules/openclaw/skills/weather",
+      "source": "openclaw",
+      "file_count": 1,
+      "last_modified": "2026-05-17",
+      "has_scripts": false,
+      "has_assets": false,
+      "secret_risk": false
+    },
+    {
+      "name": "obsidian",
+      "path": "/Users/Robin/Documents/Agent/npm/lib/node_modules/openclaw/skills/obsidian",
+      "source": "openclaw",
+      "file_count": 1,
+      "last_modified": "2026-05-17",
+      "has_scripts": false,
+      "has_assets": false,
+      "secret_risk": false
+    },
+    {
+      "name": "trello",
+      "path": "/Users/Robin/Documents/Agent/npm/lib/node_modules/openclaw/skills/trello",
+      "source": "openclaw",
+      "file_count": 1,
+      "last_modified": "2026-05-17",
+      "has_scripts": false,
+      "has_assets": false,
+      "secret_risk": false
+    },
+    {
+      "name": "wacli",
+      "path": "/Users/Robin/Documents/Agent/npm/lib/node_modules/openclaw/skills/wacli",
+      "source": "openclaw",
+      "file_count": 1,
+      "last_modified": "2026-05-17",
+      "has_scripts": false,
+      "has_assets": false,
+      "secret_risk": false
+    },
+    {
+      "name": "songsee",
+      "path": "/Users/Robin/Documents/Agent/npm/lib/node_modules/openclaw/skills/songsee",
+      "source": "openclaw",
+      "file_count": 1,
+      "last_modified": "2026-05-17",
+      "has_scripts": false,
+      "has_assets": false,
+      "secret_risk": false
+    },
+    {
+      "name": "apple-notes",
+      "path": "/Users/Robin/Documents/Agent/npm/lib/node_modules/openclaw/skills/apple-notes",
+      "source": "openclaw",
+      "file_count": 1,
+      "last_modified": "2026-05-17",
+      "has_scripts": false,
+      "has_assets": false,
+      "secret_risk": false
+    },
+    {
+      "name": "taskflow",
+      "path": "/Users/Robin/Documents/Agent/npm/lib/node_modules/openclaw/skills/taskflow",
+      "source": "openclaw",
+      "file_count": 3,
+      "last_modified": "2026-05-17",
+      "has_scripts": false,
+      "has_assets": false,
+      "secret_risk": false
+    },
+    {
+      "name": "openai-whisper-api",
+      "path": "/Users/Robin/Documents/Agent/npm/lib/node_modules/openclaw/skills/openai-whisper-api",
+      "source": "openclaw",
+      "file_count": 2,
+      "last_modified": "2026-05-17",
+      "has_scripts": true,
+      "has_assets": false,
+      "secret_risk": false
+    },
+    {
+      "name": "gh-issues",
+      "path": "/Users/Robin/Documents/Agent/npm/lib/node_modules/openclaw/skills/gh-issues",
+      "source": "openclaw",
+      "file_count": 1,
+      "last_modified": "2026-05-17",
+      "has_scripts": false,
+      "has_assets": false,
+      "secret_risk": false
+    },
+    {
+      "name": "1password",
+      "path": "/Users/Robin/Documents/Agent/npm/lib/node_modules/openclaw/skills/1password",
+      "source": "openclaw",
+      "file_count": 3,
+      "last_modified": "2026-05-17",
+      "has_scripts": false,
+      "has_assets": false,
+      "secret_risk": false
+    },
+    {
+      "name": "voice-call",
+      "path": "/Users/Robin/Documents/Agent/npm/lib/node_modules/openclaw/skills/voice-call",
+      "source": "openclaw",
+      "file_count": 1,
+      "last_modified": "2026-05-17",
+      "has_scripts": false,
+      "has_assets": false,
+      "secret_risk": false
+    },
+    {
+      "name": "claude-automation-recommender",
+      "path": "/Users/Robin/.claude/plugins/marketplaces/claude-plugins-official/plugins/claude-code-setup/skills/claude-automation-recommender",
+      "source": "plugins",
+      "file_count": 6,
+      "last_modified": "2026-05-17",
+      "has_scripts": false,
+      "has_assets": false,
+      "secret_risk": false
+    },
+    {
+      "name": "build-mcp-server",
+      "path": "/Users/Robin/.claude/plugins/marketplaces/claude-plugins-official/plugins/mcp-server-dev/skills/build-mcp-server",
+      "source": "plugins",
+      "file_count": 9,
+      "last_modified": "2026-05-17",
+      "has_scripts": false,
+      "has_assets": false,
+      "secret_risk": false
+    },
+    {
+      "name": "build-mcp-app",
+      "path": "/Users/Robin/.claude/plugins/marketplaces/claude-plugins-official/plugins/mcp-server-dev/skills/build-mcp-app",
+      "source": "plugins",
+      "file_count": 7,
+      "last_modified": "2026-05-17",
+      "has_scripts": false,
+      "has_assets": false,
+      "secret_risk": false
+    },
+    {
+      "name": "build-mcpb",
+      "path": "/Users/Robin/.claude/plugins/marketplaces/claude-plugins-official/plugins/mcp-server-dev/skills/build-mcpb",
+      "source": "plugins",
+      "file_count": 3,
+      "last_modified": "2026-05-17",
+      "has_scripts": false,
+      "has_assets": false,
+      "secret_risk": false
+    },
+    {
+      "name": "claude-md-improver",
+      "path": "/Users/Robin/.claude/plugins/marketplaces/claude-plugins-official/plugins/claude-md-management/skills/claude-md-improver",
+      "source": "plugins",
+      "file_count": 4,
+      "last_modified": "2026-05-17",
+      "has_scripts": false,
+      "has_assets": false,
+      "secret_risk": false
+    },
+    {
+      "name": "playground",
+      "path": "/Users/Robin/.claude/plugins/marketplaces/claude-plugins-official/plugins/playground/skills/playground",
+      "source": "plugins",
+      "file_count": 7,
+      "last_modified": "2026-05-17",
+      "has_scripts": false,
+      "has_assets": false,
+      "secret_risk": false
+    },
+    {
+      "name": "example-skill",
+      "path": "/Users/Robin/.claude/plugins/marketplaces/claude-plugins-official/plugins/example-plugin/skills/example-skill",
+      "source": "plugins",
+      "file_count": 1,
+      "last_modified": "2026-05-17",
+      "has_scripts": false,
+      "has_assets": false,
+      "secret_risk": false
+    },
+    {
+      "name": "example-command",
+      "path": "/Users/Robin/.claude/plugins/marketplaces/claude-plugins-official/plugins/example-plugin/skills/example-command",
+      "source": "plugins",
+      "file_count": 1,
+      "last_modified": "2026-05-17",
+      "has_scripts": false,
+      "has_assets": false,
+      "secret_risk": false
+    },
+    {
+      "name": "m5-onboard",
+      "path": "/Users/Robin/.claude/plugins/marketplaces/claude-plugins-official/plugins/cwc-makers/skills/m5-onboard",
+      "source": "plugins",
+      "file_count": 1,
+      "last_modified": "2026-05-17",
+      "has_scripts": false,
+      "has_assets": false,
+      "secret_risk": false
+    },
+    {
+      "name": "cardputer-buddy",
+      "path": "/Users/Robin/.claude/plugins/marketplaces/claude-plugins-official/plugins/cwc-makers/skills/cardputer-buddy",
+      "source": "plugins",
+      "file_count": 1,
+      "last_modified": "2026-05-17",
+      "has_scripts": false,
+      "has_assets": false,
+      "secret_risk": false
+    },
+    {
+      "name": "command-development",
+      "path": "/Users/Robin/.claude/plugins/marketplaces/claude-plugins-official/plugins/plugin-dev/skills/command-development",
+      "source": "plugins",
+      "file_count": 11,
+      "last_modified": "2026-05-17",
+      "has_scripts": false,
+      "has_assets": false,
+      "secret_risk": false
+    },
+    {
+      "name": "skill-development",
+      "path": "/Users/Robin/.claude/plugins/marketplaces/claude-plugins-official/plugins/plugin-dev/skills/skill-development",
+      "source": "plugins",
+      "file_count": 2,
+      "last_modified": "2026-05-17",
+      "has_scripts": false,
+      "has_assets": false,
+      "secret_risk": false
+    },
+    {
+      "name": "plugin-settings",
+      "path": "/Users/Robin/.claude/plugins/marketplaces/claude-plugins-official/plugins/plugin-dev/skills/plugin-settings",
+      "source": "plugins",
+      "file_count": 8,
+      "last_modified": "2026-05-17",
+      "has_scripts": true,
+      "has_assets": false,
+      "secret_risk": false
+    },
+    {
+      "name": "plugin-structure",
+      "path": "/Users/Robin/.claude/plugins/marketplaces/claude-plugins-official/plugins/plugin-dev/skills/plugin-structure",
+      "source": "plugins",
+      "file_count": 7,
+      "last_modified": "2026-05-17",
+      "has_scripts": false,
+      "has_assets": false,
+      "secret_risk": false
+    },
+    {
+      "name": "hook-development",
+      "path": "/Users/Robin/.claude/plugins/marketplaces/claude-plugins-official/plugins/plugin-dev/skills/hook-development",
+      "source": "plugins",
+      "file_count": 11,
+      "last_modified": "2026-05-17",
+      "has_scripts": true,
+      "has_assets": false,
+      "secret_risk": false
+    },
+    {
+      "name": "mcp-integration",
+      "path": "/Users/Robin/.claude/plugins/marketplaces/claude-plugins-official/plugins/plugin-dev/skills/mcp-integration",
+      "source": "plugins",
+      "file_count": 7,
+      "last_modified": "2026-05-17",
+      "has_scripts": false,
+      "has_assets": false,
+      "secret_risk": false
+    },
+    {
+      "name": "agent-development",
+      "path": "/Users/Robin/.claude/plugins/marketplaces/claude-plugins-official/plugins/plugin-dev/skills/agent-development",
+      "source": "plugins",
+      "file_count": 7,
+      "last_modified": "2026-05-17",
+      "has_scripts": true,
+      "has_assets": false,
+      "secret_risk": false
+    },
+    {
+      "name": "math-olympiad",
+      "path": "/Users/Robin/.claude/plugins/marketplaces/claude-plugins-official/plugins/math-olympiad/skills/math-olympiad",
+      "source": "plugins",
+      "file_count": 11,
+      "last_modified": "2026-05-17",
+      "has_scripts": true,
+      "has_assets": false,
+      "secret_risk": false
+    },
+    {
+      "name": "session-report",
+      "path": "/Users/Robin/.claude/plugins/marketplaces/claude-plugins-official/plugins/session-report/skills/session-report",
+      "source": "plugins",
+      "file_count": 3,
+      "last_modified": "2026-05-17",
+      "has_scripts": false,
+      "has_assets": false,
+      "secret_risk": false
+    },
+    {
+      "name": "skill-creator",
+      "path": "/Users/Robin/.claude/plugins/marketplaces/claude-plugins-official/plugins/skill-creator/skills/skill-creator",
+      "source": "plugins",
+      "file_count": 18,
+      "last_modified": "2026-05-17",
+      "has_scripts": true,
+      "has_assets": false,
+      "secret_risk": false
+    },
+    {
+      "name": "frontend-design",
+      "path": "/Users/Robin/.claude/plugins/marketplaces/claude-plugins-official/plugins/frontend-design/skills/frontend-design",
+      "source": "plugins",
+      "file_count": 1,
+      "last_modified": "2026-05-17",
+      "has_scripts": false,
+      "has_assets": false,
+      "secret_risk": false
+    },
+    {
+      "name": "writing-rules",
+      "path": "/Users/Robin/.claude/plugins/marketplaces/claude-plugins-official/plugins/hookify/skills/writing-rules",
+      "source": "plugins",
+      "file_count": 1,
+      "last_modified": "2026-05-17",
+      "has_scripts": false,
+      "has_assets": false,
+      "secret_risk": false
+    },
+    {
+      "name": "access",
+      "path": "/Users/Robin/.claude/plugins/marketplaces/claude-plugins-official/external_plugins/discord/skills/access",
+      "source": "plugins",
+      "file_count": 1,
+      "last_modified": "2026-05-17",
+      "has_scripts": false,
+      "has_assets": false,
+      "secret_risk": false
+    },
+    {
+      "name": "configure",
+      "path": "/Users/Robin/.claude/plugins/marketplaces/claude-plugins-official/external_plugins/discord/skills/configure",
+      "source": "plugins",
+      "file_count": 1,
+      "last_modified": "2026-05-17",
+      "has_scripts": false,
+      "has_assets": false,
+      "secret_risk": false
+    },
+    {
+      "name": "access",
+      "path": "/Users/Robin/.claude/plugins/marketplaces/claude-plugins-official/external_plugins/telegram/skills/access",
+      "source": "plugins",
+      "file_count": 1,
+      "last_modified": "2026-05-17",
+      "has_scripts": false,
+      "has_assets": false,
+      "secret_risk": false
+    },
+    {
+      "name": "configure",
+      "path": "/Users/Robin/.claude/plugins/marketplaces/claude-plugins-official/external_plugins/telegram/skills/configure",
+      "source": "plugins",
+      "file_count": 1,
+      "last_modified": "2026-05-17",
+      "has_scripts": false,
+      "has_assets": false,
+      "secret_risk": false
+    },
+    {
+      "name": "access",
+      "path": "/Users/Robin/.claude/plugins/marketplaces/claude-plugins-official/external_plugins/imessage/skills/access",
+      "source": "plugins",
+      "file_count": 1,
+      "last_modified": "2026-05-17",
+      "has_scripts": false,
+      "has_assets": false,
+      "secret_risk": false
+    },
+    {
+      "name": "configure",
+      "path": "/Users/Robin/.claude/plugins/marketplaces/claude-plugins-official/external_plugins/imessage/skills/configure",
+      "source": "plugins",
+      "file_count": 1,
+      "last_modified": "2026-05-17",
+      "has_scripts": false,
+      "has_assets": false,
+      "secret_risk": false
+    }
+  ]
+}
