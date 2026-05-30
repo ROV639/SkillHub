@@ -1,7 +1,1219 @@
 {
-  "updated_at": "2026-05-25",
+  "updated_at": "2026-05-31",
   "schema_version": "0.1.0",
   "skills": [
+    {
+      "id": "content-creation-platform-playbook",
+      "display_name": "content-creation-platform-playbook",
+      "source_type": "locally-developed",
+      "status": "READY",
+      "risk_level": "R1",
+      "version": "1.0.0",
+      "added_at": "2026-05-31",
+      "updated_at": "2026-05-31",
+      "last_reviewed": "2026-05-31",
+      "category": [
+        "universal"
+      ],
+      "platforms": [
+        "universal"
+      ],
+      "recommended_agents": [
+        "Codex",
+        "Claude Code",
+        "OpenClaw"
+      ],
+      "requires_api_key": false,
+      "requires_login": false,
+      "writes_external_platform": false,
+      "auto_callable": false,
+      "ready_state": "LOCAL-CURATED",
+      "path": "skills/general/content-creation-platform-playbook",
+      "summary": "Apply a practical platform-first content workflow from market research to publishable, iterative social assets."
+    },
+    {
+      "id": "film-creator",
+      "display_name": "film-creator",
+      "source_type": "locally-developed",
+      "status": "READY",
+      "risk_level": "R1",
+      "version": "1.0.0",
+      "added_at": "2026-05-31",
+      "updated_at": "2026-05-31",
+      "last_reviewed": "2026-05-31",
+      "category": [
+        "universal"
+      ],
+      "platforms": [
+        "universal"
+      ],
+      "recommended_agents": [
+        "Codex",
+        "Claude Code",
+        "OpenClaw"
+      ],
+      "requires_api_key": false,
+      "requires_login": false,
+      "writes_external_platform": false,
+      "auto_callable": false,
+      "ready_state": "LOCAL-CURATED",
+      "path": "skills/general/film-creator",
+      "summary": "Turn a short idea or image reference into a 30-second cinematic screenplay, shot list, and assembly plan."
+    },
+    {
+      "id": "hyperframes-html-to-video",
+      "display_name": "hyperframes-html-to-video",
+      "source_type": "locally-developed",
+      "status": "READY",
+      "risk_level": "R1",
+      "version": "1.0.0",
+      "added_at": "2026-05-31",
+      "updated_at": "2026-05-31",
+      "last_reviewed": "2026-05-31",
+      "category": [
+        "universal"
+      ],
+      "platforms": [
+        "universal"
+      ],
+      "recommended_agents": [
+        "Codex",
+        "Claude Code",
+        "OpenClaw"
+      ],
+      "requires_api_key": false,
+      "requires_login": false,
+      "writes_external_platform": false,
+      "auto_callable": false,
+      "ready_state": "LOCAL-CURATED",
+      "path": "skills/general/hyperframes-html-to-video",
+      "summary": "Render deterministic animated videos from HTML, timing metadata, browser frames, and FFmpeg."
+    },
+    {
+      "id": "notebooklm",
+      "display_name": "notebooklm",
+      "source_type": "locally-developed",
+      "status": "READY",
+      "risk_level": "R1",
+      "version": "1.0.0",
+      "added_at": "2026-05-31",
+      "updated_at": "2026-05-31",
+      "last_reviewed": "2026-05-31",
+      "category": [
+        "universal"
+      ],
+      "platforms": [
+        "universal"
+      ],
+      "recommended_agents": [
+        "Codex",
+        "Claude Code",
+        "OpenClaw"
+      ],
+      "requires_api_key": true,
+      "requires_login": true,
+      "writes_external_platform": false,
+      "auto_callable": false,
+      "ready_state": "LOCAL-CURATED",
+      "path": "skills/general/notebooklm",
+      "summary": "Use NotebookLM as a source-grounded research workflow for URLs, PDFs, YouTube videos, notes, and reports."
+    },
+    {
+      "id": "qwen-research-2026",
+      "display_name": "qwen-research-2026",
+      "source_type": "locally-developed",
+      "status": "READY",
+      "risk_level": "R1",
+      "version": "1.0.0",
+      "added_at": "2026-05-31",
+      "updated_at": "2026-05-31",
+      "last_reviewed": "2026-05-31",
+      "category": [
+        "universal"
+      ],
+      "platforms": [
+        "universal"
+      ],
+      "recommended_agents": [
+        "Codex",
+        "Claude Code",
+        "OpenClaw"
+      ],
+      "requires_api_key": true,
+      "requires_login": true,
+      "writes_external_platform": false,
+      "auto_callable": false,
+      "ready_state": "LOCAL-CURATED",
+      "path": "skills/general/qwen-research-2026",
+      "summary": "Research Qwen models, qwen.ai features, pricing, and limits with source priority and browser verification."
+    },
+    {
+      "id": "redbook-creator-publish",
+      "display_name": "redbook-creator-publish",
+      "source_type": "locally-developed",
+      "status": "READY",
+      "risk_level": "R1",
+      "version": "1.0.0",
+      "added_at": "2026-05-31",
+      "updated_at": "2026-05-31",
+      "last_reviewed": "2026-05-31",
+      "category": [
+        "universal"
+      ],
+      "platforms": [
+        "universal"
+      ],
+      "recommended_agents": [
+        "Codex",
+        "Claude Code",
+        "OpenClaw"
+      ],
+      "requires_api_key": true,
+      "requires_login": true,
+      "writes_external_platform": true,
+      "auto_callable": false,
+      "ready_state": "LOCAL-CURATED",
+      "path": "skills/general/redbook-creator-publish",
+      "summary": "Prepare RedNote/Xiaohongshu post drafts, image plans, and publish packages with human approval gates."
+    },
+    {
+      "id": "social-card-design",
+      "display_name": "social-card-design",
+      "source_type": "locally-developed",
+      "status": "READY",
+      "risk_level": "R1",
+      "version": "1.0.0",
+      "added_at": "2026-05-31",
+      "updated_at": "2026-05-31",
+      "last_reviewed": "2026-05-31",
+      "category": [
+        "universal"
+      ],
+      "platforms": [
+        "universal"
+      ],
+      "recommended_agents": [
+        "Codex",
+        "Claude Code",
+        "OpenClaw"
+      ],
+      "requires_api_key": false,
+      "requires_login": false,
+      "writes_external_platform": false,
+      "auto_callable": false,
+      "ready_state": "LOCAL-CURATED",
+      "path": "skills/general/social-card-design",
+      "summary": "Turn content into publishable social card systems with layout, density, image, and thumbnail-readability checks."
+    },
+    {
+      "id": "youtube-clipper",
+      "display_name": "youtube-clipper",
+      "source_type": "locally-developed",
+      "status": "READY",
+      "risk_level": "R1",
+      "version": "1.0.0",
+      "added_at": "2026-05-31",
+      "updated_at": "2026-05-31",
+      "last_reviewed": "2026-05-31",
+      "category": [
+        "universal"
+      ],
+      "platforms": [
+        "universal"
+      ],
+      "recommended_agents": [
+        "Codex",
+        "Claude Code",
+        "OpenClaw"
+      ],
+      "requires_api_key": false,
+      "requires_login": false,
+      "writes_external_platform": false,
+      "auto_callable": false,
+      "ready_state": "LOCAL-CURATED",
+      "path": "skills/general/youtube-clipper",
+      "summary": "Convert YouTube links into structured clipping notes with metadata, transcript notes, and reusable insights."
+    },
+    {
+      "id": "youtube-playlist-extractor",
+      "display_name": "youtube-playlist-extractor",
+      "source_type": "locally-developed",
+      "status": "READY",
+      "risk_level": "R1",
+      "version": "1.0.0",
+      "added_at": "2026-05-31",
+      "updated_at": "2026-05-31",
+      "last_reviewed": "2026-05-31",
+      "category": [
+        "universal"
+      ],
+      "platforms": [
+        "universal"
+      ],
+      "recommended_agents": [
+        "Codex",
+        "Claude Code",
+        "OpenClaw"
+      ],
+      "requires_api_key": false,
+      "requires_login": false,
+      "writes_external_platform": false,
+      "auto_callable": false,
+      "ready_state": "LOCAL-CURATED",
+      "path": "skills/general/youtube-playlist-extractor",
+      "summary": "Extract YouTube playlist or channel video lists with yt-dlp while avoiding playlist coverage gaps."
+    },
+    {
+      "id": "hermes-compression-debug",
+      "display_name": "hermes-compression-debug",
+      "source_type": "locally-developed",
+      "status": "READY",
+      "risk_level": "R2",
+      "version": "1.0.0",
+      "added_at": "2026-05-31",
+      "updated_at": "2026-05-31",
+      "last_reviewed": "2026-05-31",
+      "category": [
+        "hermes"
+      ],
+      "platforms": [
+        "hermes"
+      ],
+      "recommended_agents": [
+        "Hermes",
+        "Codex"
+      ],
+      "requires_api_key": false,
+      "requires_login": false,
+      "writes_external_platform": false,
+      "auto_callable": false,
+      "ready_state": "LOCAL-CURATED",
+      "path": "skills/hermes/hermes-compression-debug",
+      "summary": "Diagnose Hermes automatic context compression failures and restore predictable compression behavior."
+    },
+    {
+      "id": "hermes-telegram-buttons",
+      "display_name": "hermes-telegram-buttons",
+      "source_type": "locally-developed",
+      "status": "READY",
+      "risk_level": "R2",
+      "version": "1.0.0",
+      "added_at": "2026-05-31",
+      "updated_at": "2026-05-31",
+      "last_reviewed": "2026-05-31",
+      "category": [
+        "hermes"
+      ],
+      "platforms": [
+        "hermes"
+      ],
+      "recommended_agents": [
+        "Hermes",
+        "Codex"
+      ],
+      "requires_api_key": true,
+      "requires_login": true,
+      "writes_external_platform": true,
+      "auto_callable": false,
+      "ready_state": "LOCAL-CURATED",
+      "path": "skills/hermes/hermes-telegram-buttons",
+      "summary": "Add native Telegram inline buttons to Hermes workflows without relying on text-only clarification prompts."
+    },
+    {
+      "id": "hermes-telegram-inline-keyboard",
+      "display_name": "hermes-telegram-inline-keyboard",
+      "source_type": "locally-developed",
+      "status": "READY",
+      "risk_level": "R2",
+      "version": "1.0.0",
+      "added_at": "2026-05-31",
+      "updated_at": "2026-05-31",
+      "last_reviewed": "2026-05-31",
+      "category": [
+        "hermes"
+      ],
+      "platforms": [
+        "hermes"
+      ],
+      "recommended_agents": [
+        "Hermes",
+        "Codex"
+      ],
+      "requires_api_key": true,
+      "requires_login": true,
+      "writes_external_platform": true,
+      "auto_callable": false,
+      "ready_state": "LOCAL-CURATED",
+      "path": "skills/hermes/hermes-telegram-inline-keyboard",
+      "summary": "Extend Hermes Telegram callback handling with custom inline keyboard prefixes and handlers."
+    },
+    {
+      "id": "hermes-upgrade-workflow",
+      "display_name": "hermes-upgrade-workflow",
+      "source_type": "locally-developed",
+      "status": "READY",
+      "risk_level": "R2",
+      "version": "1.0.0",
+      "added_at": "2026-05-31",
+      "updated_at": "2026-05-31",
+      "last_reviewed": "2026-05-31",
+      "category": [
+        "hermes"
+      ],
+      "platforms": [
+        "hermes"
+      ],
+      "recommended_agents": [
+        "Hermes",
+        "Codex"
+      ],
+      "requires_api_key": false,
+      "requires_login": false,
+      "writes_external_platform": false,
+      "auto_callable": false,
+      "ready_state": "LOCAL-CURATED",
+      "path": "skills/hermes/hermes-upgrade-workflow",
+      "summary": "Upgrade Hermes Agent while preserving local modifications and resolving stash conflicts."
+    },
+    {
+      "id": "kanban-codex-lane",
+      "display_name": "kanban-codex-lane",
+      "source_type": "locally-developed",
+      "status": "READY",
+      "risk_level": "R2",
+      "version": "1.0.0",
+      "added_at": "2026-05-31",
+      "updated_at": "2026-05-31",
+      "last_reviewed": "2026-05-31",
+      "category": [
+        "hermes"
+      ],
+      "platforms": [
+        "hermes"
+      ],
+      "recommended_agents": [
+        "Hermes",
+        "Codex"
+      ],
+      "requires_api_key": false,
+      "requires_login": false,
+      "writes_external_platform": false,
+      "auto_callable": false,
+      "ready_state": "LOCAL-CURATED",
+      "path": "skills/hermes/kanban-codex-lane",
+      "summary": "Use Codex as an isolated implementation lane while Hermes keeps Kanban ownership and verification."
+    },
+    {
+      "id": "minimax-api-retry-pattern",
+      "display_name": "minimax-api-retry-pattern",
+      "source_type": "locally-developed",
+      "status": "READY",
+      "risk_level": "R2",
+      "version": "1.0.0",
+      "added_at": "2026-05-31",
+      "updated_at": "2026-05-31",
+      "last_reviewed": "2026-05-31",
+      "category": [
+        "hermes"
+      ],
+      "platforms": [
+        "hermes"
+      ],
+      "recommended_agents": [
+        "Hermes",
+        "Codex"
+      ],
+      "requires_api_key": true,
+      "requires_login": false,
+      "writes_external_platform": false,
+      "auto_callable": false,
+      "ready_state": "LOCAL-CURATED",
+      "path": "skills/hermes/minimax-api-retry-pattern",
+      "summary": "Implement user-visible retry handling for MiniMax API rate limits and transient generation failures."
+    },
+    {
+      "id": "minimax-bot-ecosystem",
+      "display_name": "minimax-bot-ecosystem",
+      "source_type": "locally-developed",
+      "status": "READY",
+      "risk_level": "R2",
+      "version": "1.0.0",
+      "added_at": "2026-05-31",
+      "updated_at": "2026-05-31",
+      "last_reviewed": "2026-05-31",
+      "category": [
+        "hermes"
+      ],
+      "platforms": [
+        "hermes"
+      ],
+      "recommended_agents": [
+        "Hermes",
+        "Codex"
+      ],
+      "requires_api_key": true,
+      "requires_login": false,
+      "writes_external_platform": false,
+      "auto_callable": false,
+      "ready_state": "LOCAL-CURATED",
+      "path": "skills/hermes/minimax-bot-ecosystem",
+      "summary": "Coordinate the local MiniMax Telegram bot family across image, image-to-image, music, lyrics, and TTS workflows."
+    },
+    {
+      "id": "minimax-img-bot",
+      "display_name": "minimax-img-bot",
+      "source_type": "locally-developed",
+      "status": "READY",
+      "risk_level": "R2",
+      "version": "1.0.0",
+      "added_at": "2026-05-31",
+      "updated_at": "2026-05-31",
+      "last_reviewed": "2026-05-31",
+      "category": [
+        "hermes"
+      ],
+      "platforms": [
+        "hermes"
+      ],
+      "recommended_agents": [
+        "Hermes",
+        "Codex"
+      ],
+      "requires_api_key": true,
+      "requires_login": false,
+      "writes_external_platform": false,
+      "auto_callable": false,
+      "ready_state": "LOCAL-CURATED",
+      "path": "skills/hermes/minimax-img-bot",
+      "summary": "Maintain a MiniMax image-generation Telegram bot with safe token handling, prompt assembly, and retry-aware operations."
+    },
+    {
+      "id": "nomos-deep-reasoning",
+      "display_name": "nomos-deep-reasoning",
+      "source_type": "locally-developed",
+      "status": "READY",
+      "risk_level": "R2",
+      "version": "1.0.0",
+      "added_at": "2026-05-31",
+      "updated_at": "2026-05-31",
+      "last_reviewed": "2026-05-31",
+      "category": [
+        "hermes"
+      ],
+      "platforms": [
+        "hermes"
+      ],
+      "recommended_agents": [
+        "Hermes",
+        "Codex"
+      ],
+      "requires_api_key": false,
+      "requires_login": false,
+      "writes_external_platform": false,
+      "auto_callable": false,
+      "ready_state": "LOCAL-CURATED",
+      "path": "skills/hermes/nomos-deep-reasoning",
+      "summary": "Force a three-layer reasoning check before execution to prevent shallow task interpretation and brittle plans."
+    },
+    {
+      "id": "nomos-ops",
+      "display_name": "nomos-ops",
+      "source_type": "locally-developed",
+      "status": "READY",
+      "risk_level": "R2",
+      "version": "1.0.0",
+      "added_at": "2026-05-31",
+      "updated_at": "2026-05-31",
+      "last_reviewed": "2026-05-31",
+      "category": [
+        "hermes"
+      ],
+      "platforms": [
+        "hermes"
+      ],
+      "recommended_agents": [
+        "Hermes",
+        "Codex"
+      ],
+      "requires_api_key": false,
+      "requires_login": false,
+      "writes_external_platform": false,
+      "auto_callable": false,
+      "ready_state": "LOCAL-CURATED",
+      "path": "skills/hermes/nomos-ops",
+      "summary": "Operate the Nomos, Hermes, and OpenClaw stack with clear ownership, safe config handling, and repeatable checks."
+    },
+    {
+      "id": "nomos-skill-review",
+      "display_name": "nomos-skill-review",
+      "source_type": "locally-developed",
+      "status": "READY",
+      "risk_level": "R2",
+      "version": "1.0.0",
+      "added_at": "2026-05-31",
+      "updated_at": "2026-05-31",
+      "last_reviewed": "2026-05-31",
+      "category": [
+        "hermes"
+      ],
+      "platforms": [
+        "hermes"
+      ],
+      "recommended_agents": [
+        "Hermes",
+        "Codex"
+      ],
+      "requires_api_key": false,
+      "requires_login": false,
+      "writes_external_platform": false,
+      "auto_callable": false,
+      "ready_state": "LOCAL-CURATED",
+      "path": "skills/hermes/nomos-skill-review",
+      "summary": "Run a daily review of local and curated skills for freshness, safety, metadata quality, and promotion readiness."
+    },
+    {
+      "id": "rubin-agent-orchestration-reference",
+      "display_name": "Rubin 多 Agent 编排参考",
+      "source_type": "rubin-adapted",
+      "adapted_from": "OneWave-AI/claude-skills: agent-army; win4r team-tasks",
+      "status": "LAB",
+      "risk_level": "R1",
+      "version": "0.1.0",
+      "added_at": "2026-05-25",
+      "updated_at": "2026-05-25",
+      "last_tested": "2026-05-25",
+      "last_reviewed": "2026-05-25",
+      "source_verified_at": "2026-05-25",
+      "category": [
+        "agent-ops",
+        "content-pipeline"
+      ],
+      "recommended_agents": [
+        "Codex",
+        "Claude",
+        "MiniMax"
+      ],
+      "requires_api_key": false,
+      "requires_login": false,
+      "writes_external_platform": false,
+      "auto_callable": false,
+      "ready_state": "REFERENCE",
+      "path": "skills/lab/rubin-adapted/rubin-agent-orchestration-reference",
+      "latest_test_report": "reports/12_REPORT_skillhub_LAB候选批量测试总报告_v1.md",
+      "latest_test_case": "test_cases/batch_2026-05-25/rubin-agent-orchestration-reference_test01.md",
+      "batch_test_verdict": "PASS"
+    },
+    {
+      "id": "rubin-article-illustration-planner",
+      "display_name": "Rubin 文章配图规划器",
+      "source_type": "rubin-adapted",
+      "adapted_from": "JimLiu/baoyu-skills: baoyu-article-illustrator",
+      "status": "LAB",
+      "risk_level": "R2",
+      "version": "0.1.0",
+      "added_at": "2026-05-25",
+      "updated_at": "2026-05-25",
+      "last_tested": "2026-05-25",
+      "last_reviewed": "2026-05-25",
+      "source_verified_at": "2026-05-25",
+      "category": [
+        "visual-generation",
+        "content-pipeline"
+      ],
+      "recommended_agents": [
+        "Codex",
+        "Claude",
+        "MiniMax"
+      ],
+      "requires_api_key": false,
+      "requires_login": false,
+      "writes_external_platform": false,
+      "auto_callable": false,
+      "ready_state": "ADAPTING",
+      "path": "skills/lab/rubin-adapted/rubin-article-illustration-planner",
+      "latest_test_report": "reports/12_REPORT_skillhub_LAB候选批量测试总报告_v1.md",
+      "latest_test_case": "test_cases/batch_2026-05-25/rubin-article-illustration-planner_test01.md",
+      "batch_test_verdict": "PASS"
+    },
+    {
+      "id": "rubin-brand-voice-gate",
+      "display_name": "Rubin 品牌语气门禁",
+      "source_type": "rubin-adapted",
+      "adapted_from": "OneWave-AI/claude-skills: brand-voice-analyzer",
+      "status": "LAB",
+      "risk_level": "R1",
+      "version": "0.1.0",
+      "added_at": "2026-05-25",
+      "updated_at": "2026-05-25",
+      "last_tested": "2026-05-25",
+      "last_reviewed": "2026-05-25",
+      "source_verified_at": "2026-05-25",
+      "category": [
+        "content-pipeline",
+        "research-evidence"
+      ],
+      "recommended_agents": [
+        "Codex",
+        "Claude",
+        "MiniMax"
+      ],
+      "requires_api_key": false,
+      "requires_login": false,
+      "writes_external_platform": false,
+      "auto_callable": false,
+      "ready_state": "ADAPTING",
+      "path": "skills/lab/rubin-adapted/rubin-brand-voice-gate",
+      "latest_test_report": "reports/12_REPORT_skillhub_LAB候选批量测试总报告_v1.md",
+      "latest_test_case": "test_cases/batch_2026-05-25/rubin-brand-voice-gate_test01.md",
+      "batch_test_verdict": "PASS"
+    },
+    {
+      "id": "rubin-comic-card-workshop",
+      "display_name": "Rubin 知识漫画工坊",
+      "source_type": "rubin-adapted",
+      "adapted_from": "JimLiu/baoyu-skills: baoyu-comic",
+      "status": "LAB",
+      "risk_level": "R2",
+      "version": "0.1.0",
+      "added_at": "2026-05-25",
+      "updated_at": "2026-05-25",
+      "last_tested": "2026-05-25",
+      "last_reviewed": "2026-05-25",
+      "source_verified_at": "2026-05-25",
+      "category": [
+        "visual-generation",
+        "content-pipeline"
+      ],
+      "recommended_agents": [
+        "Codex",
+        "MiniMax"
+      ],
+      "requires_api_key": false,
+      "requires_login": false,
+      "writes_external_platform": false,
+      "auto_callable": false,
+      "ready_state": "ADAPTING",
+      "path": "skills/lab/rubin-adapted/rubin-comic-card-workshop",
+      "latest_test_report": "reports/12_REPORT_skillhub_LAB候选批量测试总报告_v1.md",
+      "latest_test_case": "test_cases/batch_2026-05-25/rubin-comic-card-workshop_test01.md",
+      "batch_test_verdict": "PASS"
+    },
+    {
+      "id": "rubin-content-repurposer",
+      "display_name": "Rubin 内容复用器",
+      "source_type": "rubin-adapted",
+      "adapted_from": "OneWave-AI/claude-skills: content-repurposer",
+      "status": "LAB",
+      "risk_level": "R1",
+      "version": "0.1.0",
+      "added_at": "2026-05-25",
+      "updated_at": "2026-05-25",
+      "last_tested": "2026-05-25",
+      "last_reviewed": "2026-05-25",
+      "source_verified_at": "2026-05-25",
+      "category": [
+        "content-pipeline",
+        "social-publish-gate"
+      ],
+      "recommended_agents": [
+        "Codex",
+        "Claude",
+        "MiniMax"
+      ],
+      "requires_api_key": false,
+      "requires_login": false,
+      "writes_external_platform": false,
+      "auto_callable": false,
+      "ready_state": "ADAPTING",
+      "path": "skills/lab/rubin-adapted/rubin-content-repurposer",
+      "latest_test_report": "reports/12_REPORT_skillhub_LAB候选批量测试总报告_v1.md",
+      "latest_test_case": "test_cases/batch_2026-05-25/rubin-content-repurposer_test01.md",
+      "batch_test_verdict": "PASS"
+    },
+    {
+      "id": "rubin-cover-image-workshop",
+      "display_name": "Rubin 封面图工坊",
+      "source_type": "rubin-adapted",
+      "adapted_from": "JimLiu/baoyu-skills: baoyu-cover-image",
+      "status": "LAB",
+      "risk_level": "R2",
+      "version": "0.1.0",
+      "added_at": "2026-05-25",
+      "updated_at": "2026-05-25",
+      "last_tested": "2026-05-25",
+      "last_reviewed": "2026-05-25",
+      "source_verified_at": "2026-05-25",
+      "category": [
+        "visual-generation",
+        "content-pipeline"
+      ],
+      "recommended_agents": [
+        "Codex",
+        "Claude",
+        "MiniMax"
+      ],
+      "requires_api_key": false,
+      "requires_login": false,
+      "writes_external_platform": false,
+      "auto_callable": false,
+      "ready_state": "ADAPTING",
+      "path": "skills/lab/rubin-adapted/rubin-cover-image-workshop",
+      "latest_test_report": "reports/12_REPORT_skillhub_LAB候选批量测试总报告_v1.md",
+      "latest_test_case": "test_cases/batch_2026-05-25/rubin-cover-image-workshop_test01.md",
+      "batch_test_verdict": "PASS"
+    },
+    {
+      "id": "rubin-diagram-workshop",
+      "display_name": "Rubin 图解工坊",
+      "source_type": "rubin-adapted",
+      "adapted_from": "JimLiu/baoyu-skills: baoyu-diagram",
+      "status": "LAB",
+      "risk_level": "R1",
+      "version": "0.1.0",
+      "added_at": "2026-05-25",
+      "updated_at": "2026-05-25",
+      "last_tested": "2026-05-25",
+      "last_reviewed": "2026-05-25",
+      "source_verified_at": "2026-05-25",
+      "category": [
+        "visual-generation",
+        "content-pipeline",
+        "agent-ops"
+      ],
+      "recommended_agents": [
+        "Codex",
+        "Claude"
+      ],
+      "requires_api_key": false,
+      "requires_login": false,
+      "writes_external_platform": false,
+      "auto_callable": false,
+      "ready_state": "LAB-TEST",
+      "path": "skills/lab/rubin-adapted/rubin-diagram-workshop",
+      "latest_test_report": "reports/12_REPORT_skillhub_LAB候选批量测试总报告_v1.md",
+      "latest_test_case": "test_cases/batch_2026-05-25/rubin-diagram-workshop_test01.md",
+      "batch_test_verdict": "PASS"
+    },
+    {
+      "id": "rubin-google-workspace-gate",
+      "display_name": "Rubin Google 工作区闸门",
+      "source_type": "rubin-adapted",
+      "adapted_from": "VoltAgent/awesome-agent-skills: Google Workspace CLI radar",
+      "status": "LAB",
+      "risk_level": "R3",
+      "version": "0.1.0",
+      "added_at": "2026-05-25",
+      "updated_at": "2026-05-25",
+      "last_tested": "2026-05-25",
+      "last_reviewed": "2026-05-25",
+      "source_verified_at": "2026-05-25",
+      "category": [
+        "office-docs",
+        "agent-ops",
+        "knowledge-memory"
+      ],
+      "recommended_agents": [
+        "Codex",
+        "Claude"
+      ],
+      "requires_api_key": false,
+      "requires_login": false,
+      "writes_external_platform": false,
+      "auto_callable": false,
+      "ready_state": "LAB-TEST",
+      "path": "skills/lab/rubin-adapted/rubin-google-workspace-gate",
+      "latest_test_report": "reports/12_REPORT_skillhub_LAB候选批量测试总报告_v1.md",
+      "latest_test_case": "test_cases/batch_2026-05-25/rubin-google-workspace-gate_test01.md",
+      "batch_test_verdict": "PASS"
+    },
+    {
+      "id": "rubin-infographic-workshop",
+      "display_name": "Rubin 信息图工坊",
+      "source_type": "rubin-adapted",
+      "adapted_from": "JimLiu/baoyu-skills: baoyu-infographic",
+      "status": "LAB",
+      "risk_level": "R2",
+      "version": "0.1.0",
+      "added_at": "2026-05-25",
+      "updated_at": "2026-05-25",
+      "last_tested": "2026-05-25",
+      "last_reviewed": "2026-05-25",
+      "source_verified_at": "2026-05-25",
+      "category": [
+        "visual-generation",
+        "research-evidence",
+        "content-pipeline"
+      ],
+      "recommended_agents": [
+        "Codex",
+        "Claude",
+        "MiniMax"
+      ],
+      "requires_api_key": false,
+      "requires_login": false,
+      "writes_external_platform": false,
+      "auto_callable": false,
+      "ready_state": "LAB-TEST",
+      "path": "skills/lab/rubin-adapted/rubin-infographic-workshop",
+      "latest_test_report": "reports/12_REPORT_skillhub_LAB候选批量测试总报告_v1.md",
+      "latest_test_case": "test_cases/batch_2026-05-25/rubin-infographic-workshop_test01.md",
+      "batch_test_verdict": "PASS"
+    },
+    {
+      "id": "rubin-knowledge-base-builder",
+      "display_name": "Rubin 知识库建造器",
+      "source_type": "rubin-adapted",
+      "adapted_from": "OneWave-AI/claude-skills: knowledge-base-builder",
+      "status": "LAB",
+      "risk_level": "R1",
+      "version": "0.1.0",
+      "added_at": "2026-05-25",
+      "updated_at": "2026-05-25",
+      "last_tested": "2026-05-26",
+      "last_reviewed": "2026-05-25",
+      "source_verified_at": "2026-05-25",
+      "category": [
+        "knowledge-memory",
+        "research-evidence",
+        "agent-ops"
+      ],
+      "recommended_agents": [
+        "Codex",
+        "Claude",
+        "MiniMax"
+      ],
+      "requires_api_key": false,
+      "requires_login": false,
+      "writes_external_platform": false,
+      "auto_callable": false,
+      "ready_state": "ADAPTING",
+      "path": "skills/lab/rubin-adapted/rubin-knowledge-base-builder",
+      "latest_test_report": "reports/14_TEST_rubin-knowledge-base-builder_test02_v1.md",
+      "latest_test_case": "test_cases/project_tests_2026-05-26/rubin-knowledge-base-builder_test02_knowledge_map/skillhub_knowledge_map_v1.md",
+      "batch_test_verdict": "PASS",
+      "project_test_verdict": "PASS"
+    },
+    {
+      "id": "rubin-manga-video-planner",
+      "display_name": "Rubin 漫画视频规划器",
+      "source_type": "rubin-adapted",
+      "adapted_from": "freestylefly/canghe-skills: canghe-manga-style-video",
+      "status": "LAB",
+      "risk_level": "R2",
+      "version": "0.1.0",
+      "added_at": "2026-05-25",
+      "updated_at": "2026-05-25",
+      "last_tested": "2026-05-25",
+      "last_reviewed": "2026-05-25",
+      "source_verified_at": "2026-05-25",
+      "category": [
+        "visual-generation",
+        "content-pipeline"
+      ],
+      "recommended_agents": [
+        "Codex",
+        "MiniMax"
+      ],
+      "requires_api_key": false,
+      "requires_login": false,
+      "writes_external_platform": false,
+      "auto_callable": false,
+      "ready_state": "ADAPTING",
+      "path": "skills/lab/rubin-adapted/rubin-manga-video-planner",
+      "latest_test_report": "reports/12_REPORT_skillhub_LAB候选批量测试总报告_v1.md",
+      "latest_test_case": "test_cases/batch_2026-05-25/rubin-manga-video-planner_test01.md",
+      "batch_test_verdict": "PASS"
+    },
+    {
+      "id": "rubin-marketing-copy-lab",
+      "display_name": "Rubin 营销文案实验室",
+      "source_type": "rubin-adapted",
+      "adapted_from": "VoltAgent/awesome-agent-skills: marketingskills, CRO, SEO, copywriting radar",
+      "status": "LAB",
+      "risk_level": "R1",
+      "version": "0.1.0",
+      "added_at": "2026-05-25",
+      "updated_at": "2026-05-25",
+      "last_tested": "2026-05-25",
+      "last_reviewed": "2026-05-25",
+      "source_verified_at": "2026-05-25",
+      "category": [
+        "content-pipeline",
+        "social-publish-gate"
+      ],
+      "recommended_agents": [
+        "Codex",
+        "Claude",
+        "MiniMax"
+      ],
+      "requires_api_key": false,
+      "requires_login": false,
+      "writes_external_platform": false,
+      "auto_callable": false,
+      "ready_state": "ADAPTING",
+      "path": "skills/lab/rubin-adapted/rubin-marketing-copy-lab",
+      "latest_test_report": "reports/12_REPORT_skillhub_LAB候选批量测试总报告_v1.md",
+      "latest_test_case": "test_cases/batch_2026-05-25/rubin-marketing-copy-lab_test01.md",
+      "batch_test_verdict": "PASS"
+    },
+    {
+      "id": "rubin-minimax-office-adapter",
+      "display_name": "Rubin MiniMax 办公适配器",
+      "source_type": "rubin-adapted",
+      "adapted_from": "VoltAgent/awesome-agent-skills: MiniMax-AI document skills radar",
+      "status": "LAB",
+      "risk_level": "R2",
+      "version": "0.1.0",
+      "added_at": "2026-05-25",
+      "updated_at": "2026-05-25",
+      "last_tested": "2026-05-25",
+      "last_reviewed": "2026-05-25",
+      "source_verified_at": "2026-05-25",
+      "category": [
+        "office-docs",
+        "agent-ops"
+      ],
+      "recommended_agents": [
+        "Codex",
+        "MiniMax"
+      ],
+      "requires_api_key": false,
+      "requires_login": false,
+      "writes_external_platform": false,
+      "auto_callable": false,
+      "ready_state": "ADAPTING",
+      "path": "skills/lab/rubin-adapted/rubin-minimax-office-adapter",
+      "latest_test_report": "reports/12_REPORT_skillhub_LAB候选批量测试总报告_v1.md",
+      "latest_test_case": "test_cases/batch_2026-05-25/rubin-minimax-office-adapter_test01.md",
+      "batch_test_verdict": "PASS"
+    },
+    {
+      "id": "rubin-minimax-tts-workshop",
+      "display_name": "Rubin MiniMax 语音工坊",
+      "source_type": "rubin-adapted",
+      "adapted_from": "VoltAgent/awesome-agent-skills: minimax-tts",
+      "status": "LAB",
+      "risk_level": "R2",
+      "version": "0.1.0",
+      "added_at": "2026-05-25",
+      "updated_at": "2026-05-25",
+      "last_tested": "2026-05-25",
+      "last_reviewed": "2026-05-25",
+      "source_verified_at": "2026-05-25",
+      "category": [
+        "content-pipeline",
+        "visual-generation",
+        "agent-ops"
+      ],
+      "recommended_agents": [
+        "Codex",
+        "MiniMax"
+      ],
+      "requires_api_key": false,
+      "requires_login": false,
+      "writes_external_platform": false,
+      "auto_callable": false,
+      "ready_state": "LAB-TEST",
+      "path": "skills/lab/rubin-adapted/rubin-minimax-tts-workshop",
+      "latest_test_report": "reports/12_REPORT_skillhub_LAB候选批量测试总报告_v1.md",
+      "latest_test_case": "test_cases/batch_2026-05-25/rubin-minimax-tts-workshop_test01.md",
+      "batch_test_verdict": "PASS"
+    },
+    {
+      "id": "rubin-office-asset-workbench",
+      "display_name": "Rubin 办公资产工作台",
+      "source_type": "rubin-adapted",
+      "adapted_from": "anthropics/skills: docx, pdf, pptx, xlsx",
+      "status": "LAB",
+      "risk_level": "R2",
+      "version": "0.1.0",
+      "added_at": "2026-05-25",
+      "updated_at": "2026-05-25",
+      "last_tested": "2026-05-25",
+      "last_reviewed": "2026-05-25",
+      "source_verified_at": "2026-05-25",
+      "category": [
+        "office-docs",
+        "content-pipeline"
+      ],
+      "recommended_agents": [
+        "Codex",
+        "Claude",
+        "MiniMax"
+      ],
+      "requires_api_key": false,
+      "requires_login": false,
+      "writes_external_platform": false,
+      "auto_callable": false,
+      "ready_state": "LAB-TEST",
+      "path": "skills/lab/rubin-adapted/rubin-office-asset-workbench",
+      "latest_test_report": "reports/12_REPORT_skillhub_LAB候选批量测试总报告_v1.md",
+      "latest_test_case": "test_cases/batch_2026-05-25/rubin-office-asset-workbench_test01.md",
+      "batch_test_verdict": "PASS-LIMITED"
+    },
+    {
+      "id": "rubin-publish-format-workshop",
+      "display_name": "Rubin 发布格式工坊",
+      "source_type": "rubin-adapted",
+      "adapted_from": "JimLiu/baoyu-skills: baoyu-markdown-to-html, baoyu-format-markdown",
+      "status": "LAB",
+      "risk_level": "R1",
+      "version": "0.1.0",
+      "added_at": "2026-05-25",
+      "updated_at": "2026-05-25",
+      "last_tested": "2026-05-25",
+      "last_reviewed": "2026-05-25",
+      "source_verified_at": "2026-05-25",
+      "category": [
+        "content-pipeline",
+        "social-publish-gate",
+        "office-docs"
+      ],
+      "recommended_agents": [
+        "Codex",
+        "Claude",
+        "MiniMax"
+      ],
+      "requires_api_key": false,
+      "requires_login": false,
+      "writes_external_platform": false,
+      "auto_callable": false,
+      "ready_state": "LAB-TEST",
+      "path": "skills/lab/rubin-adapted/rubin-publish-format-workshop",
+      "latest_test_report": "reports/12_REPORT_skillhub_LAB候选批量测试总报告_v1.md",
+      "latest_test_case": "test_cases/batch_2026-05-25/rubin-publish-format-workshop_test01.md",
+      "batch_test_verdict": "PASS"
+    },
+    {
+      "id": "rubin-skill-builder",
+      "display_name": "Rubin Skill 建造器",
+      "source_type": "rubin-adapted",
+      "adapted_from": "anthropics/skills: skill-creator structure",
+      "status": "LAB",
+      "risk_level": "R0",
+      "version": "0.1.0",
+      "added_at": "2026-05-25",
+      "updated_at": "2026-05-25",
+      "last_tested": "2026-05-26",
+      "last_reviewed": "2026-05-25",
+      "source_verified_at": "2026-05-25",
+      "category": [
+        "agent-ops",
+        "knowledge-memory"
+      ],
+      "recommended_agents": [
+        "Codex",
+        "Claude"
+      ],
+      "requires_api_key": false,
+      "requires_login": false,
+      "writes_external_platform": false,
+      "auto_callable": false,
+      "ready_state": "LAB-TEST",
+      "path": "skills/lab/rubin-adapted/rubin-skill-builder",
+      "latest_test_report": "reports/13_TEST_rubin-skill-builder_test02_v1.md",
+      "latest_test_case": "test_cases/project_tests_2026-05-26/rubin-skill-builder_test02_candidate_package/test_plan.md",
+      "batch_test_verdict": "PASS",
+      "project_test_verdict": "PASS"
+    },
+    {
+      "id": "rubin-social-draft-repurposer",
+      "display_name": "Rubin 社媒草稿改写器",
+      "source_type": "rubin-adapted",
+      "adapted_from": "OneWave-AI/claude-skills: social-repurposer",
+      "status": "LAB",
+      "risk_level": "R1",
+      "version": "0.1.0",
+      "added_at": "2026-05-25",
+      "updated_at": "2026-05-25",
+      "last_tested": "2026-05-25",
+      "last_reviewed": "2026-05-25",
+      "source_verified_at": "2026-05-25",
+      "category": [
+        "content-pipeline",
+        "social-publish-gate"
+      ],
+      "recommended_agents": [
+        "Codex",
+        "Claude",
+        "MiniMax"
+      ],
+      "requires_api_key": false,
+      "requires_login": false,
+      "writes_external_platform": false,
+      "auto_callable": false,
+      "ready_state": "ADAPTING",
+      "path": "skills/lab/rubin-adapted/rubin-social-draft-repurposer",
+      "latest_test_report": "reports/12_REPORT_skillhub_LAB候选批量测试总报告_v1.md",
+      "latest_test_case": "test_cases/batch_2026-05-25/rubin-social-draft-repurposer_test01.md",
+      "batch_test_verdict": "PASS"
+    },
+    {
+      "id": "rubin-url-markdown-intake",
+      "display_name": "Rubin 网页资料入口",
+      "source_type": "rubin-adapted",
+      "adapted_from": "JimLiu/baoyu-skills: baoyu-url-to-markdown",
+      "status": "LAB",
+      "risk_level": "R1",
+      "version": "0.1.0",
+      "added_at": "2026-05-25",
+      "updated_at": "2026-05-25",
+      "last_tested": "2026-05-25",
+      "last_reviewed": "2026-05-25",
+      "source_verified_at": "2026-05-25",
+      "category": [
+        "research-evidence",
+        "content-pipeline",
+        "knowledge-memory"
+      ],
+      "recommended_agents": [
+        "Codex",
+        "Claude",
+        "MiniMax"
+      ],
+      "requires_api_key": false,
+      "requires_login": false,
+      "writes_external_platform": false,
+      "auto_callable": false,
+      "ready_state": "LAB-TEST",
+      "path": "skills/lab/rubin-adapted/rubin-url-markdown-intake",
+      "latest_test_report": "reports/12_REPORT_skillhub_LAB候选批量测试总报告_v1.md",
+      "latest_test_case": "test_cases/batch_2026-05-25/rubin-url-markdown-intake_test01.md",
+      "batch_test_verdict": "PASS-LIMITED"
+    },
+    {
+      "id": "rubin-xhs-card-workshop",
+      "display_name": "Rubin 小红书图卡工坊",
+      "source_type": "rubin-adapted",
+      "adapted_from": "JimLiu/baoyu-skills: baoyu-xhs-images",
+      "status": "LAB",
+      "risk_level": "R2",
+      "version": "0.1.0",
+      "added_at": "2026-05-25",
+      "updated_at": "2026-05-25",
+      "last_tested": "2026-05-25",
+      "last_reviewed": "2026-05-25",
+      "source_verified_at": "2026-05-25",
+      "category": [
+        "visual-generation",
+        "content-pipeline",
+        "social-publish-gate"
+      ],
+      "recommended_agents": [
+        "Codex",
+        "Claude",
+        "MiniMax"
+      ],
+      "requires_api_key": false,
+      "requires_login": false,
+      "writes_external_platform": false,
+      "auto_callable": false,
+      "ready_state": "LAB-TEST",
+      "path": "skills/lab/rubin-adapted/rubin-xhs-card-workshop",
+      "latest_test_report": "reports/12_REPORT_skillhub_LAB候选批量测试总报告_v1.md",
+      "latest_test_case": "test_cases/batch_2026-05-25/rubin-xhs-card-workshop_test01.md",
+      "batch_test_verdict": "PASS"
+    },
     {
       "id": "rubin-evidence-lab",
       "display_name": "证据研究所",
@@ -13,8 +1225,15 @@
       "updated_at": "2026-05-25",
       "last_tested": "2026-05-25",
       "last_reviewed": "2026-05-25",
-      "category": ["research-evidence", "content-pipeline", "agent-ops"],
-      "recommended_agents": ["Codex", "Claude"],
+      "category": [
+        "research-evidence",
+        "content-pipeline",
+        "agent-ops"
+      ],
+      "recommended_agents": [
+        "Codex",
+        "Claude"
+      ],
       "requires_api_key": false,
       "requires_login": false,
       "writes_external_platform": false,
@@ -23,7 +1242,177 @@
       "auto_callable": false,
       "ready_state": "LAB-TEST",
       "scorecard": "scorecards/rubin-evidence-lab.md",
-      "latest_test_report": "reports/03_REPORT_rubin-evidence-lab_回测_baoyu-skills_v1.md"
+      "latest_test_report": "reports/12_REPORT_skillhub_LAB候选批量测试总报告_v1.md",
+      "latest_test_case": "test_cases/batch_2026-05-25/rubin-evidence-lab_test01.md",
+      "batch_test_verdict": "PASS"
+    },
+    {
+      "id": "humanizer",
+      "display_name": "humanizer",
+      "source_type": "locally-developed",
+      "status": "READY",
+      "risk_level": "R2",
+      "version": "1.0.0",
+      "added_at": "2026-05-31",
+      "updated_at": "2026-05-31",
+      "last_reviewed": "2026-05-31",
+      "category": [
+        "openclaw"
+      ],
+      "platforms": [
+        "openclaw"
+      ],
+      "recommended_agents": [
+        "OpenClaw",
+        "Codex"
+      ],
+      "requires_api_key": false,
+      "requires_login": false,
+      "writes_external_platform": false,
+      "auto_callable": false,
+      "ready_state": "LOCAL-CURATED",
+      "path": "skills/openclaw/humanizer",
+      "summary": "Remove common AI-writing patterns and rewrite text with a more natural human voice."
+    },
+    {
+      "id": "openclaw-agent-routing",
+      "display_name": "openclaw-agent-routing",
+      "source_type": "locally-developed",
+      "status": "READY",
+      "risk_level": "R2",
+      "version": "1.0.0",
+      "added_at": "2026-05-31",
+      "updated_at": "2026-05-31",
+      "last_reviewed": "2026-05-31",
+      "category": [
+        "openclaw"
+      ],
+      "platforms": [
+        "openclaw"
+      ],
+      "recommended_agents": [
+        "OpenClaw",
+        "Codex"
+      ],
+      "requires_api_key": false,
+      "requires_login": false,
+      "writes_external_platform": false,
+      "auto_callable": false,
+      "ready_state": "LOCAL-CURATED",
+      "path": "skills/openclaw/openclaw-agent-routing",
+      "summary": "Route OpenClaw tasks to the right specialist agent, model config, and cron lane without mixing responsibilities."
+    },
+    {
+      "id": "openclaw-channel-manager",
+      "display_name": "openclaw-channel-manager",
+      "source_type": "locally-developed",
+      "status": "READY",
+      "risk_level": "R2",
+      "version": "1.0.0",
+      "added_at": "2026-05-31",
+      "updated_at": "2026-05-31",
+      "last_reviewed": "2026-05-31",
+      "category": [
+        "openclaw"
+      ],
+      "platforms": [
+        "openclaw"
+      ],
+      "recommended_agents": [
+        "OpenClaw",
+        "Codex"
+      ],
+      "requires_api_key": true,
+      "requires_login": true,
+      "writes_external_platform": true,
+      "auto_callable": false,
+      "ready_state": "LOCAL-CURATED",
+      "path": "skills/openclaw/openclaw-channel-manager",
+      "summary": "Manage OpenClaw delivery channels, report outputs, and publish gates without leaking credentials or mixing account contexts."
+    },
+    {
+      "id": "openclaw-gateway-foreground-fix",
+      "display_name": "openclaw-gateway-foreground-fix",
+      "source_type": "locally-developed",
+      "status": "READY",
+      "risk_level": "R2",
+      "version": "1.0.0",
+      "added_at": "2026-05-31",
+      "updated_at": "2026-05-31",
+      "last_reviewed": "2026-05-31",
+      "category": [
+        "openclaw"
+      ],
+      "platforms": [
+        "openclaw"
+      ],
+      "recommended_agents": [
+        "OpenClaw",
+        "Codex"
+      ],
+      "requires_api_key": false,
+      "requires_login": false,
+      "writes_external_platform": false,
+      "auto_callable": false,
+      "ready_state": "LOCAL-CURATED",
+      "path": "skills/openclaw/openclaw-gateway-foreground-fix",
+      "summary": "Recover a stuck OpenClaw gateway by diagnosing process state and restarting it in a reliable foreground mode."
+    },
+    {
+      "id": "openclaw-health-check",
+      "display_name": "openclaw-health-check",
+      "source_type": "locally-developed",
+      "status": "READY",
+      "risk_level": "R2",
+      "version": "1.0.0",
+      "added_at": "2026-05-31",
+      "updated_at": "2026-05-31",
+      "last_reviewed": "2026-05-31",
+      "category": [
+        "openclaw"
+      ],
+      "platforms": [
+        "openclaw"
+      ],
+      "recommended_agents": [
+        "OpenClaw",
+        "Codex"
+      ],
+      "requires_api_key": false,
+      "requires_login": false,
+      "writes_external_platform": false,
+      "auto_callable": false,
+      "ready_state": "LOCAL-CURATED",
+      "path": "skills/openclaw/openclaw-health-check",
+      "summary": "Run a practical OpenClaw health check across gateway, cron jobs, agents, models, logs, and workspace outputs."
+    },
+    {
+      "id": "rov639-hermes-vs-openclaw",
+      "display_name": "rov639-hermes-vs-openclaw",
+      "source_type": "locally-developed",
+      "status": "READY",
+      "risk_level": "R2",
+      "version": "1.0.0",
+      "added_at": "2026-05-31",
+      "updated_at": "2026-05-31",
+      "last_reviewed": "2026-05-31",
+      "category": [
+        "openclaw"
+      ],
+      "platforms": [
+        "openclaw"
+      ],
+      "recommended_agents": [
+        "OpenClaw",
+        "Codex"
+      ],
+      "requires_api_key": false,
+      "requires_login": false,
+      "writes_external_platform": false,
+      "auto_callable": false,
+      "ready_state": "LOCAL-CURATED",
+      "path": "skills/openclaw/rov639-hermes-vs-openclaw",
+      "summary": "Clarify ownership boundaries, config paths, and routing rules between Hermes and OpenClaw in the ROV639 system."
     }
   ],
   "sources": [

@@ -1,0 +1,195 @@
+{
+  "updated_at": "2026-05-25",
+  "report": "reports/12_REPORT_skillhub_LAB候选批量测试总报告_v1.md",
+  "results": [
+    {
+      "id": "rubin-evidence-lab",
+      "project": "MacBook_Rovin / SkillHub",
+      "scenario": "对 MiniMax 批量初筛报告做二次复核，区分可入库、仅参考和高风险能力。",
+      "verdict": "PASS",
+      "risk_level": "R1",
+      "test_case": "test_cases/batch_2026-05-25/rubin-evidence-lab_test01.md",
+      "next": "可继续承担外部仓库调研和事实核查。"
+    },
+    {
+      "id": "rubin-diagram-workshop",
+      "project": "SkillHub",
+      "scenario": "把 SkillHub 入库流程转成 SVG 图解。",
+      "verdict": "PASS",
+      "risk_level": "R1",
+      "test_case": "test_cases/batch_2026-05-25/rubin-diagram-workshop_test01.md",
+      "next": "做移动端/小红书比例复测。"
+    },
+    {
+      "id": "rubin-publish-format-workshop",
+      "project": "SkillHub / MacBook_Rovin",
+      "scenario": "把 MiniMax 初筛复核报告整理成发布前 Markdown 包。",
+      "verdict": "PASS",
+      "risk_level": "R1",
+      "test_case": "test_cases/batch_2026-05-25/rubin-publish-format-workshop_test01.md",
+      "next": "做 HTML 转换复测。"
+    },
+    {
+      "id": "rubin-url-markdown-intake",
+      "project": "MacBook_Rovin / ONE_SPARK",
+      "scenario": "把公开 GitHub README 或工具页面整理成资料卡。",
+      "verdict": "PASS-LIMITED",
+      "risk_level": "R1",
+      "test_case": "test_cases/batch_2026-05-25/rubin-url-markdown-intake_test01.md",
+      "next": "后续用公开 README 做一次 live fetch 复测。"
+    },
+    {
+      "id": "rubin-infographic-workshop",
+      "project": "Arthur_Observatory / SkillHub",
+      "scenario": "把 SkillHub 项目适配图谱压缩成一张信息图结构。",
+      "verdict": "PASS",
+      "risk_level": "R2",
+      "test_case": "test_cases/batch_2026-05-25/rubin-infographic-workshop_test01.md",
+      "next": "生成一张实际信息图或图卡版本。"
+    },
+    {
+      "id": "rubin-xhs-card-workshop",
+      "project": "Eve_Frames / Rov_Eve",
+      "scenario": "把 SkillHub 第二批候选整理成 6 张小红书图卡脚本。",
+      "verdict": "PASS",
+      "risk_level": "R2",
+      "test_case": "test_cases/batch_2026-05-25/rubin-xhs-card-workshop_test01.md",
+      "next": "用 Rov_Eve 正式主题做一轮真实图卡测试。"
+    },
+    {
+      "id": "rubin-office-asset-workbench",
+      "project": "MacBook_Rovin / Arthur_Observatory",
+      "scenario": "把批量测试总报告整理成可交付文档资产清单。",
+      "verdict": "PASS-LIMITED",
+      "risk_level": "R2",
+      "test_case": "test_cases/batch_2026-05-25/rubin-office-asset-workbench_test01.md",
+      "next": "选择一份报告生成 docx 或 pptx 复测。"
+    },
+    {
+      "id": "rubin-cover-image-workshop",
+      "project": "Eve_Frames / ONE_SPARK",
+      "scenario": "为 SkillHub 批量测试报告设计 3 个封面方向。",
+      "verdict": "PASS",
+      "risk_level": "R2",
+      "test_case": "test_cases/batch_2026-05-25/rubin-cover-image-workshop_test01.md",
+      "next": "在 Eve_Frames 授权任务中做封面实测。"
+    },
+    {
+      "id": "rubin-article-illustration-planner",
+      "project": "Rov_Eve / Eve_Frames",
+      "scenario": "为一篇 SkillHub 说明长文规划配图位置。",
+      "verdict": "PASS",
+      "risk_level": "R2",
+      "test_case": "test_cases/batch_2026-05-25/rubin-article-illustration-planner_test01.md",
+      "next": "对真实 Rov_Eve 教程文做配图清单。"
+    },
+    {
+      "id": "rubin-content-repurposer",
+      "project": "Rov_Eve / ONE_SPARK",
+      "scenario": "把 SkillHub 总结改写成公众号摘要、小红书正文、X 短帖、内部汇报。",
+      "verdict": "PASS",
+      "risk_level": "R1",
+      "test_case": "test_cases/batch_2026-05-25/rubin-content-repurposer_test01.md",
+      "next": "对 Eve/Rov 正式内容做多平台改写测试。"
+    },
+    {
+      "id": "rubin-brand-voice-gate",
+      "project": "Eve_Frames / Rov_Eve / ONE_SPARK",
+      "scenario": "检查一段 SkillHub 发布文案是否过度营销、AI 味过重、事实跳跃。",
+      "verdict": "PASS",
+      "risk_level": "R1",
+      "test_case": "test_cases/batch_2026-05-25/rubin-brand-voice-gate_test01.md",
+      "next": "对多平台文案做真实门禁测试。"
+    },
+    {
+      "id": "rubin-social-draft-repurposer",
+      "project": "ONE_SPARK / Eve_Frames",
+      "scenario": "为 SkillHub 测试结果生成小红书、X、公众号草稿包。",
+      "verdict": "PASS",
+      "risk_level": "R1",
+      "test_case": "test_cases/batch_2026-05-25/rubin-social-draft-repurposer_test01.md",
+      "next": "接入 ONE_SPARK 的账号边界报告做草稿包测试。"
+    },
+    {
+      "id": "rubin-minimax-office-adapter",
+      "project": "MacBook_Rovin / SkillHub",
+      "scenario": "把批量测试报告拆成 MiniMax 可执行办公资产任务包。",
+      "verdict": "PASS",
+      "risk_level": "R2",
+      "test_case": "test_cases/batch_2026-05-25/rubin-minimax-office-adapter_test01.md",
+      "next": "交给 MiniMax 生成一份 PPT 大纲做复测。"
+    },
+    {
+      "id": "rubin-google-workspace-gate",
+      "project": "ONE_SPARK / MacBook_Rovin",
+      "scenario": "设计把 SkillHub 报告同步到 Google Docs/Sheets 前的权限包。",
+      "verdict": "PASS",
+      "risk_level": "R3",
+      "test_case": "test_cases/batch_2026-05-25/rubin-google-workspace-gate_test01.md",
+      "next": "等用户授权 Google 操作时再做真实连接测试。"
+    },
+    {
+      "id": "rubin-minimax-tts-workshop",
+      "project": "Arthur_Observatory",
+      "scenario": "把一段 Arthur 视频旁白整理成 MiniMax TTS 任务包。",
+      "verdict": "PASS",
+      "risk_level": "R2",
+      "test_case": "test_cases/batch_2026-05-25/rubin-minimax-tts-workshop_test01.md",
+      "next": "用 Arthur 真实旁白片段做一次音频任务包复测。"
+    },
+    {
+      "id": "rubin-skill-builder",
+      "project": "SkillHub / MacBook_Rovin",
+      "scenario": "把 MiniMax TTS 候选改写成 Rubin 标准 Skill。",
+      "verdict": "PASS",
+      "risk_level": "R0",
+      "test_case": "test_cases/batch_2026-05-25/rubin-skill-builder_test01.md",
+      "next": "可作为后续新仓库入库默认工具。"
+    },
+    {
+      "id": "rubin-marketing-copy-lab",
+      "project": "ONE_SPARK / Eve_Frames",
+      "scenario": "把 SkillHub 的内部说明改成对外介绍和转化文案。",
+      "verdict": "PASS",
+      "risk_level": "R1",
+      "test_case": "test_cases/batch_2026-05-25/rubin-marketing-copy-lab_test01.md",
+      "next": "对 Rubin Studio 服务页或账号简介做实测。"
+    },
+    {
+      "id": "rubin-comic-card-workshop",
+      "project": "Rov_Eve",
+      "scenario": "把“AI 如何帮普通人整理工作流”改成 6 格漫画分镜。",
+      "verdict": "PASS",
+      "risk_level": "R2",
+      "test_case": "test_cases/batch_2026-05-25/rubin-comic-card-workshop_test01.md",
+      "next": "用 ROV/EVE 固定角色约束做正式分镜测试。"
+    },
+    {
+      "id": "rubin-manga-video-planner",
+      "project": "Arthur_Observatory / Rov_Eve",
+      "scenario": "把漫画分镜扩展成 45 秒短视频规划。",
+      "verdict": "PASS",
+      "risk_level": "R2",
+      "test_case": "test_cases/batch_2026-05-25/rubin-manga-video-planner_test01.md",
+      "next": "用 Arthur 或 Rov_Eve 一个真实主题做视频规划复测。"
+    },
+    {
+      "id": "rubin-knowledge-base-builder",
+      "project": "MacBook_Rovin / SkillHub",
+      "scenario": "把 SkillHub 报告、测试、索引整理成知识库目录建议。",
+      "verdict": "PASS",
+      "risk_level": "R1",
+      "test_case": "test_cases/batch_2026-05-25/rubin-knowledge-base-builder_test01.md",
+      "next": "对 AltmanCodex 全项目做只读知识图谱草案。"
+    },
+    {
+      "id": "rubin-agent-orchestration-reference",
+      "project": "SkillHub / MacBook_Rovin",
+      "scenario": "把一次复杂调研拆成 Linear、DAG、Debate 三种 Agent 协作模板。",
+      "verdict": "PASS",
+      "risk_level": "R1",
+      "test_case": "test_cases/batch_2026-05-25/rubin-agent-orchestration-reference_test01.md",
+      "next": "固化为 SkillHub 新仓库接收流程的参考章节。"
+    }
+  ]
+}
