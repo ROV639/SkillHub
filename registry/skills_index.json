@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-05-31",
+  "updated_at": "2026-06-29",
   "schema_version": "0.1.0",
   "skills": [
     {
@@ -1413,6 +1413,35 @@
       "ready_state": "LOCAL-CURATED",
       "path": "skills/openclaw/rov639-hermes-vs-openclaw",
       "summary": "Clarify ownership boundaries, config paths, and routing rules between Hermes and OpenClaw in the ROV639 system."
+    },
+    {
+      "id": "hermes-tweet",
+      "display_name": "hermes-tweet",
+      "source_type": "external-curated",
+      "status": "READY",
+      "risk_level": "R4",
+      "version": "1.0.0",
+      "added_at": "2026-06-29",
+      "updated_at": "2026-06-29",
+      "last_reviewed": "2026-06-29",
+      "category": [
+        "hermes",
+        "social-media"
+      ],
+      "platforms": [
+        "hermes"
+      ],
+      "recommended_agents": [
+        "Hermes",
+        "Codex"
+      ],
+      "requires_api_key": true,
+      "requires_login": false,
+      "writes_external_platform": true,
+      "auto_callable": false,
+      "ready_state": "LOCAL-CURATED",
+      "path": "skills/hermes/hermes-tweet",
+      "summary": "Use the native Hermes Tweet plugin for X/Twitter reads, social listening, launch monitoring, and approval-gated account actions through Xquik."
     }
   ],
   "sources": [

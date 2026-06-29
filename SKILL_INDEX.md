@@ -1,6 +1,6 @@
 # Rubin SkillHub 总索引
 
-更新时间：2026-05-25  
+更新时间：2026-06-29
 维护人：Robin / Codex  
 仓库：ROV639/SkillHub  
 用途：所有 Agent 共用的 Skill 总目录
@@ -8,11 +8,11 @@
 ## 当前状态
 
 - ready skills：0
-- local curated skills：26
+- local curated skills：27
 - lab skills：21
 - external_unverified：0
 - blocked_prod：0
-- 最近一次扫描：2026-05-31
+- 最近一次扫描：2026-06-29
 - 最近一次晋升：2026-05-31（local curated）
 
 ## 快速使用
@@ -76,6 +76,7 @@
 |---|---|---|---|---|
 | `kanban-codex-lane` | `skills/hermes/kanban-codex-lane` | READY | English, metadata normalized | `~/.hermes/skills/autonomous-ai-agents/kanban-codex-lane` |
 | `hermes-upgrade-workflow` | `skills/hermes/hermes-upgrade-workflow` | READY | English, metadata normalized | `~/.hermes/skills/productivity/hermes-upgrade-workflow` |
+| `hermes-tweet` | `skills/hermes/hermes-tweet` | READY | English, metadata normalized | `Xquik-dev/hermes-tweet` |
 | `hermes-compression-debug` | `skills/hermes/hermes-compression-debug` | READY | Mixed CN/EN -> English | `~/.hermes/skills/productivity/hermes-compression-debug` |
 | `hermes-telegram-buttons` | `skills/hermes/hermes-telegram-buttons` | READY | Mixed CN/EN -> English | `~/.hermes/skills/productivity/hermes-telegram-buttons` |
 | `hermes-telegram-inline-keyboard` | `skills/hermes/hermes-telegram-inline-keyboard` | READY | Mixed CN/EN -> English | `~/.hermes/skills/hermes-extension/hermes-telegram-inline-keyboard` |
